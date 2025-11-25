@@ -32,7 +32,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-8">
               <h1 className="text-xl font-bold text-neutral-900">
-                🪑 Asiento Libre Admin
+                Asiento Libre
               </h1>
               
               <nav className="hidden md:flex space-x-4">
