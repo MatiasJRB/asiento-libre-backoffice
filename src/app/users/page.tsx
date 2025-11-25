@@ -58,8 +58,8 @@ export default async function UsersPage({
       <div className="space-y-6">
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="text-3xl font-bold text-gray-900">Usuarios</h2>
-            <p className="text-gray-600 mt-1">Gestión de usuarios de la plataforma</p>
+            <h2 className="text-3xl font-bold text-neutral-900">Usuarios</h2>
+            <p className="text-neutral-600 mt-1">Gestión de usuarios de la plataforma</p>
           </div>
         </div>
 
@@ -75,11 +75,11 @@ export default async function UsersPage({
                 name="search"
                 placeholder="Buscar por nombre o ID..."
                 defaultValue={params.search}
-                className="flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="flex-1 px-4 py-2 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
               />
               <button
                 type="submit"
-                className="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 font-medium"
+                className="px-6 py-2 bg-primary text-white rounded-md hover:bg-primary-dark font-medium"
               >
                 Buscar
               </button>
@@ -97,30 +97,30 @@ export default async function UsersPage({
               <table className="w-full">
                 <thead>
                   <tr className="border-b">
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Usuario</th>
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Ciudad</th>
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Rating</th>
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Verificación</th>
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Rol</th>
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Estado</th>
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Registro</th>
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Acciones</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Usuario</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Ciudad</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Rating</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Verificación</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Rol</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Estado</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Registro</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Acciones</th>
                   </tr>
                 </thead>
                 <tbody>
                   {users.length === 0 ? (
                     <tr>
-                      <td colSpan={8} className="text-center py-8 text-gray-500">
+                      <td colSpan={8} className="text-center py-8 text-neutral-500">
                         No se encontraron usuarios
                       </td>
                     </tr>
                   ) : (
                     users.map((user) => (
-                      <tr key={user.id} className="border-b hover:bg-gray-50">
+                      <tr key={user.id} className="border-b hover:bg-neutral-50">
                         <td className="py-3 px-4">
                           <div>
                             <p className="font-medium">{user.full_name || 'Sin nombre'}</p>
-                            <p className="text-xs text-gray-500 truncate max-w-[200px]">
+                            <p className="text-xs text-neutral-500 truncate max-w-[200px]">
                               {user.id}
                             </p>
                           </div>
@@ -132,14 +132,14 @@ export default async function UsersPage({
                               ⭐ {user.avg_rating.toFixed(1)} ({user.ratings_count})
                             </span>
                           ) : (
-                            <span className="text-gray-400">Sin ratings</span>
+                            <span className="text-neutral-400">Sin ratings</span>
                           )}
                         </td>
                         <td className="py-3 px-4">
                           <span className={`text-xs px-2 py-1 rounded ${
                             user.email_verif_status === 'verified'
-                              ? 'bg-green-100 text-green-700'
-                              : 'bg-yellow-100 text-yellow-700'
+                              ? 'bg-success-light text-success-dark'
+                              : 'bg-warning-light text-warning-dark'
                           }`}>
                             {user.email_verif_status === 'verified' ? 'Verificado' : 'Pendiente'}
                           </span>
@@ -147,8 +147,8 @@ export default async function UsersPage({
                         <td className="py-3 px-4">
                           <span className={`text-xs px-2 py-1 rounded ${
                             user.role === 'super_admin' ? 'bg-purple-100 text-purple-700' :
-                            user.role === 'admin' ? 'bg-blue-100 text-blue-700' :
-                            'bg-gray-100 text-gray-700'
+                            user.role === 'admin' ? 'bg-primary-light text-primary-dark' :
+                            'bg-neutral-100 text-neutral-700'
                           }`}>
                             {user.role}
                           </span>
@@ -156,19 +156,19 @@ export default async function UsersPage({
                         <td className="py-3 px-4">
                           <span className={`text-xs px-2 py-1 rounded ${
                             user.suspended
-                              ? 'bg-red-100 text-red-700'
-                              : 'bg-green-100 text-green-700'
+                              ? 'bg-error-light text-error-dark'
+                              : 'bg-success-light text-success-dark'
                           }`}>
                             {user.suspended ? 'Suspendido' : 'Activo'}
                           </span>
                         </td>
-                        <td className="py-3 px-4 text-sm text-gray-600">
+                        <td className="py-3 px-4 text-sm text-neutral-600">
                           {new Date(user.created_at).toLocaleDateString('es-AR')}
                         </td>
                         <td className="py-3 px-4">
                           <Link
                             href={`/users/${user.id}`}
-                            className="text-blue-600 hover:text-blue-700 text-sm font-medium"
+                            className="text-primary hover:text-primary-dark text-sm font-medium"
                           >
                             Ver Detalle
                           </Link>

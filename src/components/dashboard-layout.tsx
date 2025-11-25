@@ -25,13 +25,13 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-neutral-50">
       {/* Header */}
-      <header className="bg-white border-b border-gray-200">
+      <header className="bg-white border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-8">
-              <h1 className="text-xl font-bold text-gray-900">
+              <h1 className="text-xl font-bold text-neutral-900">
                 🪑 Asiento Libre Admin
               </h1>
               
@@ -44,8 +44,8 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
                       href={item.href}
                       className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                         isActive
-                          ? 'bg-blue-50 text-blue-700'
-                          : 'text-gray-700 hover:bg-gray-100'
+                          ? 'bg-primary-light text-primary-dark'
+                          : 'text-neutral-700 hover:bg-neutral-100'
                       }`}
                     >
                       {item.name}
@@ -57,7 +57,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
 
             <button
               onClick={handleLogout}
-              className="text-sm text-gray-700 hover:text-gray-900 font-medium"
+              className="text-sm text-neutral-700 hover:text-neutral-900 font-medium"
             >
               Cerrar Sesión
             </button>
@@ -66,7 +66,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
       </header>
 
       {/* Mobile Navigation */}
-      <nav className="md:hidden bg-white border-b border-gray-200">
+      <nav className="md:hidden bg-white border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 py-2 flex space-x-2 overflow-x-auto">
           {navigation.map((item) => {
             const isActive = pathname === item.href || pathname?.startsWith(item.href + '/')
@@ -76,8 +76,8 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
                 href={item.href}
                 className={`px-3 py-2 rounded-md text-sm font-medium whitespace-nowrap ${
                   isActive
-                    ? 'bg-blue-50 text-blue-700'
-                    : 'text-gray-700 hover:bg-gray-100'
+                    ? 'bg-primary-light text-primary-dark'
+                    : 'text-neutral-700 hover:bg-neutral-100'
                 }`}
               >
                 {item.name}

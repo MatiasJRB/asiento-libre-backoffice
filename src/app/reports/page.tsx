@@ -72,15 +72,15 @@ export default async function ReportsPage({
     <DashboardLayout>
       <div className="space-y-6">
         <div>
-          <h2 className="text-3xl font-bold text-gray-900">Reportes</h2>
-          <p className="text-gray-600 mt-1">Gestión de reportes y denuncias</p>
+          <h2 className="text-3xl font-bold text-neutral-900">Reportes</h2>
+          <p className="text-neutral-600 mt-1">Gestión de reportes y denuncias</p>
         </div>
 
         {/* Stats */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-gray-600">
+              <CardTitle className="text-sm font-medium text-neutral-600">
                 Total Reportes
               </CardTitle>
             </CardHeader>
@@ -91,7 +91,7 @@ export default async function ReportsPage({
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-gray-600">
+              <CardTitle className="text-sm font-medium text-neutral-600">
                 Pendientes
               </CardTitle>
             </CardHeader>
@@ -102,23 +102,23 @@ export default async function ReportsPage({
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-gray-600">
+              <CardTitle className="text-sm font-medium text-neutral-600">
                 Críticos
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold text-red-600">{criticalReports}</div>
+              <div className="text-2xl font-bold text-error">{criticalReports}</div>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-gray-600">
+              <CardTitle className="text-sm font-medium text-neutral-600">
                 Resueltos
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold text-green-600">{resolvedReports}</div>
+              <div className="text-2xl font-bold text-success">{resolvedReports}</div>
             </CardContent>
           </Card>
         </div>
@@ -131,14 +131,14 @@ export default async function ReportsPage({
           <CardContent>
             <div className="space-y-4">
               <div>
-                <p className="text-sm font-medium text-gray-700 mb-2">Estado</p>
+                <p className="text-sm font-medium text-neutral-700 mb-2">Estado</p>
                 <div className="flex gap-2 flex-wrap">
                   <Link
                     href="/reports"
                     className={`px-4 py-2 rounded-md font-medium text-sm ${
                       !params.status || params.status === 'all'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Todos
@@ -147,8 +147,8 @@ export default async function ReportsPage({
                     href="/reports?status=pending"
                     className={`px-4 py-2 rounded-md font-medium text-sm ${
                       params.status === 'pending'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Pendientes
@@ -157,8 +157,8 @@ export default async function ReportsPage({
                     href="/reports?status=investigating"
                     className={`px-4 py-2 rounded-md font-medium text-sm ${
                       params.status === 'investigating'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Investigando
@@ -167,8 +167,8 @@ export default async function ReportsPage({
                     href="/reports?status=resolved"
                     className={`px-4 py-2 rounded-md font-medium text-sm ${
                       params.status === 'resolved'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Resueltos
@@ -177,8 +177,8 @@ export default async function ReportsPage({
                     href="/reports?status=dismissed"
                     className={`px-4 py-2 rounded-md font-medium text-sm ${
                       params.status === 'dismissed'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Descartados
@@ -187,14 +187,14 @@ export default async function ReportsPage({
               </div>
 
               <div>
-                <p className="text-sm font-medium text-gray-700 mb-2">Severidad</p>
+                <p className="text-sm font-medium text-neutral-700 mb-2">Severidad</p>
                 <div className="flex gap-2 flex-wrap">
                   <Link
                     href="/reports"
                     className={`px-4 py-2 rounded-md font-medium text-sm ${
                       !params.severity || params.severity === 'all'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Todas
@@ -203,8 +203,8 @@ export default async function ReportsPage({
                     href="/reports?severity=critical"
                     className={`px-4 py-2 rounded-md font-medium text-sm ${
                       params.severity === 'critical'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Crítica
@@ -213,8 +213,8 @@ export default async function ReportsPage({
                     href="/reports?severity=high"
                     className={`px-4 py-2 rounded-md font-medium text-sm ${
                       params.severity === 'high'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Alta
@@ -223,8 +223,8 @@ export default async function ReportsPage({
                     href="/reports?severity=medium"
                     className={`px-4 py-2 rounded-md font-medium text-sm ${
                       params.severity === 'medium'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Media
@@ -233,8 +233,8 @@ export default async function ReportsPage({
                     href="/reports?severity=low"
                     className={`px-4 py-2 rounded-md font-medium text-sm ${
                       params.severity === 'low'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Baja
@@ -243,14 +243,14 @@ export default async function ReportsPage({
               </div>
 
               <div>
-                <p className="text-sm font-medium text-gray-700 mb-2">Tipo</p>
+                <p className="text-sm font-medium text-neutral-700 mb-2">Tipo</p>
                 <div className="flex gap-2 flex-wrap">
                   <Link
                     href="/reports"
                     className={`px-3 py-2 rounded-md text-sm ${
                       !params.type || params.type === 'all'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Todos
@@ -259,8 +259,8 @@ export default async function ReportsPage({
                     href="/reports?type=fraud"
                     className={`px-3 py-2 rounded-md text-sm ${
                       params.type === 'fraud'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Fraude
@@ -269,8 +269,8 @@ export default async function ReportsPage({
                     href="/reports?type=harassment"
                     className={`px-3 py-2 rounded-md text-sm ${
                       params.type === 'harassment'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Acoso
@@ -279,8 +279,8 @@ export default async function ReportsPage({
                     href="/reports?type=no_show"
                     className={`px-3 py-2 rounded-md text-sm ${
                       params.type === 'no_show'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     No Show
@@ -289,8 +289,8 @@ export default async function ReportsPage({
                     href="/reports?type=unsafe_driving"
                     className={`px-3 py-2 rounded-md text-sm ${
                       params.type === 'unsafe_driving'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Conducción Insegura
@@ -299,8 +299,8 @@ export default async function ReportsPage({
                     href="/reports?type=price_gouging"
                     className={`px-3 py-2 rounded-md text-sm ${
                       params.type === 'price_gouging'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Cobro Excesivo
@@ -309,8 +309,8 @@ export default async function ReportsPage({
                     href="/reports?type=inappropriate_content"
                     className={`px-3 py-2 rounded-md text-sm ${
                       params.type === 'inappropriate_content'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Contenido Inapropiado
@@ -319,8 +319,8 @@ export default async function ReportsPage({
                     href="/reports?type=other"
                     className={`px-3 py-2 rounded-md text-sm ${
                       params.type === 'other'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-primary text-white'
+                        : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
                     }`}
                   >
                     Otro
@@ -341,29 +341,29 @@ export default async function ReportsPage({
               <table className="w-full">
                 <thead>
                   <tr className="border-b">
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Tipo</th>
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Reportado</th>
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Reportante</th>
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Severidad</th>
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Estado</th>
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Fecha</th>
-                    <th className="text-left py-3 px-4 font-medium text-gray-600">Acciones</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Tipo</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Reportado</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Reportante</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Severidad</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Estado</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Fecha</th>
+                    <th className="text-left py-3 px-4 font-medium text-neutral-600">Acciones</th>
                   </tr>
                 </thead>
                 <tbody>
                   {reports.length === 0 ? (
                     <tr>
-                      <td colSpan={7} className="text-center py-8 text-gray-500">
+                      <td colSpan={7} className="text-center py-8 text-neutral-500">
                         No se encontraron reportes
                       </td>
                     </tr>
                   ) : (
                     reports.map((report) => (
-                      <tr key={report.id} className="border-b hover:bg-gray-50">
+                      <tr key={report.id} className="border-b hover:bg-neutral-50">
                         <td className="py-3 px-4">
                           <Link
                             href={`/reports/${report.id}`}
-                            className="text-sm font-medium capitalize text-blue-600 hover:underline"
+                            className="text-sm font-medium capitalize text-primary hover:underline"
                           >
                             {report.type.replace('_', ' ')}
                           </Link>
@@ -372,53 +372,53 @@ export default async function ReportsPage({
                           {report.reported_user_id ? (
                             <Link
                               href={`/users/${report.reported_user_id}`}
-                              className="text-blue-600 hover:underline text-sm"
+                              className="text-primary hover:underline text-sm"
                             >
                               {report.reported_user?.full_name || 'Usuario'}
                             </Link>
                           ) : (
-                            <span className="text-gray-500 text-sm">-</span>
+                            <span className="text-neutral-500 text-sm">-</span>
                           )}
                         </td>
                         <td className="py-3 px-4">
                           {report.reporter_id ? (
                             <Link
                               href={`/users/${report.reporter_id}`}
-                              className="text-blue-600 hover:underline text-sm"
+                              className="text-primary hover:underline text-sm"
                             >
                               {report.reporter?.full_name || 'Usuario'}
                             </Link>
                           ) : (
-                            <span className="text-gray-500 text-sm">-</span>
+                            <span className="text-neutral-500 text-sm">-</span>
                           )}
                         </td>
                         <td className="py-3 px-4">
                           <span className={`text-xs px-2 py-1 rounded ${
-                            report.severity === 'critical' ? 'bg-red-100 text-red-700' :
-                            report.severity === 'high' ? 'bg-orange-100 text-orange-700' :
-                            report.severity === 'medium' ? 'bg-yellow-100 text-yellow-700' :
-                            'bg-gray-100 text-gray-700'
+                            report.severity === 'critical' ? 'bg-error-light text-error-dark' :
+                            report.severity === 'high' ? 'bg-warning-light text-warning-dark' :
+                            report.severity === 'medium' ? 'bg-warning-light text-warning-dark' :
+                            'bg-neutral-100 text-neutral-700'
                           }`}>
                             {report.severity}
                           </span>
                         </td>
                         <td className="py-3 px-4">
                           <span className={`text-xs px-2 py-1 rounded ${
-                            report.status === 'resolved' ? 'bg-green-100 text-green-700' :
-                            report.status === 'investigating' ? 'bg-blue-100 text-blue-700' :
-                            report.status === 'dismissed' ? 'bg-gray-100 text-gray-700' :
-                            'bg-orange-100 text-orange-700'
+                            report.status === 'resolved' ? 'bg-success-light text-success-dark' :
+                            report.status === 'investigating' ? 'bg-primary-light text-primary-dark' :
+                            report.status === 'dismissed' ? 'bg-neutral-100 text-neutral-700' :
+                            'bg-warning-light text-warning-dark'
                           }`}>
                             {report.status}
                           </span>
                         </td>
-                        <td className="py-3 px-4 text-sm text-gray-600">
+                        <td className="py-3 px-4 text-sm text-neutral-600">
                           {new Date(report.created_at).toLocaleDateString('es-AR')}
                         </td>
                         <td className="py-3 px-4">
                           <Link
                             href={`/reports/${report.id}`}
-                            className="text-blue-600 hover:text-blue-700 text-sm font-medium"
+                            className="text-primary hover:text-primary-dark text-sm font-medium"
                           >
                             Ver Detalle
                           </Link>

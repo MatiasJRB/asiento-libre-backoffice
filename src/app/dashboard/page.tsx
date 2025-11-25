@@ -140,21 +140,21 @@ export default async function DashboardPage() {
     <DashboardLayout>
       <div className="space-y-8">
         <div>
-          <h2 className="text-3xl font-bold text-gray-900">Dashboard</h2>
-          <p className="text-gray-600 mt-1">Vista general de la plataforma</p>
+          <h2 className="text-3xl font-bold text-neutral-900">Dashboard</h2>
+          <p className="text-neutral-600 mt-1">Vista general de la plataforma</p>
         </div>
 
         {/* KPIs Principales */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-gray-600">
+              <CardTitle className="text-sm font-medium text-neutral-600">
                 Total Usuarios
               </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold">{stats.totalUsers}</div>
-              <p className="text-xs text-green-600 mt-1">
+              <p className="text-xs text-success mt-1">
                 +{stats.newUsersThisMonth} este mes
               </p>
             </CardContent>
@@ -162,13 +162,13 @@ export default async function DashboardPage() {
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-gray-600">
+              <CardTitle className="text-sm font-medium text-neutral-600">
                 Viajes este Mes
               </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold">{stats.ridesThisMonth}</div>
-              <p className="text-xs text-gray-600 mt-1">
+              <p className="text-xs text-neutral-600 mt-1">
                 {stats.completedRidesThisMonth} completados
               </p>
             </CardContent>
@@ -176,13 +176,13 @@ export default async function DashboardPage() {
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-gray-600">
+              <CardTitle className="text-sm font-medium text-neutral-600">
                 Tasa Conversión
               </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold">{stats.conversionRate}%</div>
-              <p className="text-xs text-gray-600 mt-1">
+              <p className="text-xs text-neutral-600 mt-1">
                 Viajes completados
               </p>
             </CardContent>
@@ -190,13 +190,13 @@ export default async function DashboardPage() {
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-gray-600">
+              <CardTitle className="text-sm font-medium text-neutral-600">
                 Rating Promedio
               </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold">{stats.platformAvgRating}/5</div>
-              <p className="text-xs text-gray-600 mt-1">
+              <p className="text-xs text-neutral-600 mt-1">
                 Calificación plataforma
               </p>
             </CardContent>
@@ -207,7 +207,7 @@ export default async function DashboardPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-gray-600">
+              <CardTitle className="text-sm font-medium text-neutral-600">
                 Viajes Activos
               </CardTitle>
             </CardHeader>
@@ -218,7 +218,7 @@ export default async function DashboardPage() {
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-gray-600">
+              <CardTitle className="text-sm font-medium text-neutral-600">
                 Reportes Pendientes
               </CardTitle>
             </CardHeader>
@@ -231,13 +231,13 @@ export default async function DashboardPage() {
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-gray-600">
+              <CardTitle className="text-sm font-medium text-neutral-600">
                 Leads este Mes
               </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold">{stats.leadsThisMonth}</div>
-              <p className="text-xs text-gray-600 mt-1">
+              <p className="text-xs text-neutral-600 mt-1">
                 Total: {stats.totalLeads}
               </p>
             </CardContent>
@@ -254,20 +254,20 @@ export default async function DashboardPage() {
             <CardContent>
               <div className="space-y-3">
                 {activity.recentUsers.length === 0 ? (
-                  <p className="text-sm text-gray-500">No hay usuarios recientes</p>
+                  <p className="text-sm text-neutral-500">No hay usuarios recientes</p>
                 ) : (
                   activity.recentUsers.map((user) => (
                     <div key={user.id} className="flex items-center justify-between border-b pb-2">
                       <div>
                         <p className="font-medium">{user.full_name || 'Sin nombre'}</p>
-                        <p className="text-xs text-gray-500">
+                        <p className="text-xs text-neutral-500">
                           {new Date(user.created_at).toLocaleDateString('es-AR')}
                         </p>
                       </div>
                       <span className={`text-xs px-2 py-1 rounded ${
                         user.email_verif_status === 'verified'
-                          ? 'bg-green-100 text-green-700'
-                          : 'bg-yellow-100 text-yellow-700'
+                          ? 'bg-success-light text-success-dark'
+                          : 'bg-warning-light text-warning-dark'
                       }`}>
                         {user.email_verif_status === 'verified' ? 'Verificado' : 'Pendiente'}
                       </span>
@@ -286,29 +286,29 @@ export default async function DashboardPage() {
             <CardContent>
               <div className="space-y-3">
                 {activity.recentReports.length === 0 ? (
-                  <p className="text-sm text-gray-500">No hay reportes recientes</p>
+                  <p className="text-sm text-neutral-500">No hay reportes recientes</p>
                 ) : (
                   activity.recentReports.map((report) => (
                     <div key={report.id} className="flex items-center justify-between border-b pb-2">
                       <div>
                         <p className="font-medium capitalize">{report.type.replace('_', ' ')}</p>
-                        <p className="text-xs text-gray-500">
+                        <p className="text-xs text-neutral-500">
                           {new Date(report.created_at).toLocaleDateString('es-AR')}
                         </p>
                       </div>
                       <div className="flex gap-2">
                         <span className={`text-xs px-2 py-1 rounded ${
-                          report.severity === 'critical' ? 'bg-red-100 text-red-700' :
-                          report.severity === 'high' ? 'bg-orange-100 text-orange-700' :
-                          report.severity === 'medium' ? 'bg-yellow-100 text-yellow-700' :
-                          'bg-gray-100 text-gray-700'
+                          report.severity === 'critical' ? 'bg-error-light text-error-dark' :
+                          report.severity === 'high' ? 'bg-warning-light text-warning-dark' :
+                          report.severity === 'medium' ? 'bg-warning-light text-warning-dark' :
+                          'bg-neutral-100 text-neutral-700'
                         }`}>
                           {report.severity}
                         </span>
                         <span className={`text-xs px-2 py-1 rounded ${
-                          report.status === 'resolved' ? 'bg-green-100 text-green-700' :
-                          report.status === 'investigating' ? 'bg-blue-100 text-blue-700' :
-                          'bg-gray-100 text-gray-700'
+                          report.status === 'resolved' ? 'bg-success-light text-success-dark' :
+                          report.status === 'investigating' ? 'bg-primary-light text-primary-dark' :
+                          'bg-neutral-100 text-neutral-700'
                         }`}>
                           {report.status}
                         </span>

@@ -109,7 +109,7 @@ export function ReportActions({ reportId, currentStatus }: ReportActionsProps) {
             </div>
 
             {error && (
-              <p className="text-sm text-red-600">{error}</p>
+              <p className="text-sm text-error">{error}</p>
             )}
           </div>
 

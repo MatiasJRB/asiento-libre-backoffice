@@ -80,7 +80,7 @@ export function UserActions({ userId, currentRole, isSuspended, userRole }: User
         <button
           onClick={handleUnsuspend}
           disabled={loading}
-          className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 disabled:opacity-50"
+          className="px-4 py-2 bg-success text-white rounded-md hover:bg-success-dark disabled:opacity-50"
         >
           {loading ? 'Procesando...' : 'Reactivar Usuario'}
         </button>
@@ -88,7 +88,7 @@ export function UserActions({ userId, currentRole, isSuspended, userRole }: User
         <button
           onClick={() => setShowSuspendModal(true)}
           disabled={loading}
-          className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 disabled:opacity-50"
+          className="px-4 py-2 bg-error text-white rounded-md hover:bg-error-dark disabled:opacity-50"
         >
           Suspender Usuario
         </button>
@@ -98,7 +98,7 @@ export function UserActions({ userId, currentRole, isSuspended, userRole }: User
         <button
           onClick={() => setShowRoleModal(true)}
           disabled={loading}
-          className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 disabled:opacity-50"
+          className="px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark disabled:opacity-50"
         >
           Cambiar Rol
         </button>
@@ -110,13 +110,13 @@ export function UserActions({ userId, currentRole, isSuspended, userRole }: User
           <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
             <h3 className="text-lg font-bold mb-4">Suspender Usuario</h3>
             <div className="mb-4">
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-neutral-700 mb-2">
                 Razón de suspensión
               </label>
               <textarea
                 value={suspendReason}
                 onChange={(e) => setSuspendReason(e.target.value)}
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
+                className="w-full px-3 py-2 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                 rows={4}
                 placeholder="Describe la razón de la suspensión..."
               />
@@ -127,14 +127,14 @@ export function UserActions({ userId, currentRole, isSuspended, userRole }: User
                   setShowSuspendModal(false)
                   setSuspendReason('')
                 }}
-                className="px-4 py-2 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-50"
+                className="px-4 py-2 text-neutral-700 border border-neutral-300 rounded-md hover:bg-neutral-50"
               >
                 Cancelar
               </button>
               <button
                 onClick={handleSuspend}
                 disabled={loading || !suspendReason.trim()}
-                className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 disabled:opacity-50"
+                className="px-4 py-2 bg-error text-white rounded-md hover:bg-error-dark disabled:opacity-50"
               >
                 {loading ? 'Suspendiendo...' : 'Suspender'}
               </button>
@@ -149,13 +149,13 @@ export function UserActions({ userId, currentRole, isSuspended, userRole }: User
           <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
             <h3 className="text-lg font-bold mb-4">Cambiar Rol de Usuario</h3>
             <div className="mb-4">
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-neutral-700 mb-2">
                 Nuevo Rol
               </label>
               <select
                 value={selectedRole}
                 onChange={(e) => setSelectedRole(e.target.value)}
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-3 py-2 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
               >
                 <option value="user">Usuario</option>
                 <option value="admin">Administrador</option>
@@ -168,14 +168,14 @@ export function UserActions({ userId, currentRole, isSuspended, userRole }: User
                   setShowRoleModal(false)
                   setSelectedRole(currentRole)
                 }}
-                className="px-4 py-2 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-50"
+                className="px-4 py-2 text-neutral-700 border border-neutral-300 rounded-md hover:bg-neutral-50"
               >
                 Cancelar
               </button>
               <button
                 onClick={handleChangeRole}
                 disabled={loading}
-                className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 disabled:opacity-50"
+                className="px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark disabled:opacity-50"
               >
                 {loading ? 'Cambiando...' : 'Cambiar Rol'}
               </button>

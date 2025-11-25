@@ -87,8 +87,8 @@ export default async function RideDetailPage({
       <div className="space-y-6">
         <div className="flex justify-between items-start">
           <div>
-            <h2 className="text-3xl font-bold text-gray-900">Detalle del Viaje</h2>
-            <p className="text-gray-600 mt-1">
+            <h2 className="text-3xl font-bold text-neutral-900">Detalle del Viaje</h2>
+            <p className="text-neutral-600 mt-1">
               {ride.origin_text} → {ride.dest_text}
             </p>
           </div>
@@ -96,7 +96,7 @@ export default async function RideDetailPage({
             <RideActions rideId={id} currentStatus={ride.status} />
             <Link
               href="/rides"
-              className="px-4 py-2 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-50"
+              className="px-4 py-2 text-neutral-700 border border-neutral-300 rounded-md hover:bg-neutral-50"
             >
               ← Volver
             </Link>
@@ -111,35 +111,35 @@ export default async function RideDetailPage({
             </CardHeader>
             <CardContent className="space-y-2 text-sm">
               <div>
-                <span className="text-gray-600">Fecha:</span>{' '}
+                <span className="text-neutral-600">Fecha:</span>{' '}
                 <span className="font-medium">
                   {new Date(ride.date_utc).toLocaleDateString('es-AR')}
                 </span>
               </div>
               <div>
-                <span className="text-gray-600">Hora de salida:</span>{' '}
+                <span className="text-neutral-600">Hora de salida:</span>{' '}
                 <span className="font-medium">{ride.time_str}</span>
               </div>
               {ride.estimated_arrival_str && (
                 <div>
-                  <span className="text-gray-600">Llegada estimada:</span>{' '}
+                  <span className="text-neutral-600">Llegada estimada:</span>{' '}
                   <span className="font-medium">{ride.estimated_arrival_str}</span>
                 </div>
               )}
               <div>
-                <span className="text-gray-600">Precio sugerido:</span>{' '}
+                <span className="text-neutral-600">Precio sugerido:</span>{' '}
                 <span className="font-medium">${ride.price_suggested || '-'}</span>
               </div>
               <div>
-                <span className="text-gray-600">Asientos:</span>{' '}
+                <span className="text-neutral-600">Asientos:</span>{' '}
                 <span className="font-medium">{ride.seats} ocupados / {ride.seats_offered} ofrecidos</span>
               </div>
               <div>
-                <span className="text-gray-600">Estado:</span>{' '}
+                <span className="text-neutral-600">Estado:</span>{' '}
                 <span className={`px-2 py-1 rounded text-xs ${
-                  ride.status === 'completed' ? 'bg-green-100 text-green-700' :
-                  ride.status === 'active' ? 'bg-blue-100 text-blue-700' :
-                  'bg-gray-100 text-gray-700'
+                  ride.status === 'completed' ? 'bg-success-light text-success-dark' :
+                  ride.status === 'active' ? 'bg-primary-light text-primary-dark' :
+                  'bg-neutral-100 text-neutral-700'
                 }`}>
                   {ride.status}
                 </span>
@@ -154,12 +154,12 @@ export default async function RideDetailPage({
             <CardContent className="space-y-2 text-sm">
               <Link
                 href={`/users/${ride.driver.id}`}
-                className="text-blue-600 hover:underline font-medium"
+                className="text-primary hover:underline font-medium"
               >
                 {ride.driver.full_name || 'Sin nombre'}
               </Link>
               <div>
-                <span className="text-gray-600">Rating:</span>{' '}
+                <span className="text-neutral-600">Rating:</span>{' '}
                 <span className="font-medium">
                   {ride.driver.avg_rating > 0 
                     ? `⭐ ${ride.driver.avg_rating.toFixed(1)} (${ride.driver.ratings_count})` 
@@ -173,13 +173,13 @@ export default async function RideDetailPage({
                       {ride.vehicle.make} {ride.vehicle.model}
                     </p>
                     {ride.vehicle.year && (
-                      <p className="text-gray-600">Año: {ride.vehicle.year}</p>
+                      <p className="text-neutral-600">Año: {ride.vehicle.year}</p>
                     )}
                     {ride.vehicle.color && (
-                      <p className="text-gray-600">Color: {ride.vehicle.color}</p>
+                      <p className="text-neutral-600">Color: {ride.vehicle.color}</p>
                     )}
                     {ride.vehicle.plate && (
-                      <p className="text-gray-600">Patente: {ride.vehicle.plate}</p>
+                      <p className="text-neutral-600">Patente: {ride.vehicle.plate}</p>
                     )}
                   </div>
                 </>
@@ -193,21 +193,21 @@ export default async function RideDetailPage({
             </CardHeader>
             <CardContent className="space-y-2 text-sm">
               <div>
-                <span className="text-gray-600">Horario flexible:</span>{' '}
+                <span className="text-neutral-600">Horario flexible:</span>{' '}
                 <span className="font-medium">{ride.flexible ? 'Sí' : 'No'}</span>
               </div>
               <div>
-                <span className="text-gray-600">Permite equipaje:</span>{' '}
+                <span className="text-neutral-600">Permite equipaje:</span>{' '}
                 <span className="font-medium">{ride.allows_luggage ? 'Sí' : 'No'}</span>
               </div>
               <div>
-                <span className="text-gray-600">Máx. 2 atrás:</span>{' '}
+                <span className="text-neutral-600">Máx. 2 atrás:</span>{' '}
                 <span className="font-medium">{ride.comfort_backseat_2_only ? 'Sí' : 'No'}</span>
               </div>
               {ride.prefs_text && (
                 <div className="pt-2 border-t">
-                  <p className="text-gray-600">Notas:</p>
-                  <p className="text-gray-900">{ride.prefs_text}</p>
+                  <p className="text-neutral-600">Notas:</p>
+                  <p className="text-neutral-900">{ride.prefs_text}</p>
                 </div>
               )}
             </CardContent>
@@ -222,19 +222,19 @@ export default async function RideDetailPage({
           <CardContent>
             <div className="space-y-3">
               <div>
-                <p className="text-sm text-gray-600">Origen</p>
+                <p className="text-sm text-neutral-600">Origen</p>
                 <p className="font-medium">{ride.origin_text}</p>
-                <p className="text-xs text-gray-500">
+                <p className="text-xs text-neutral-500">
                   {ride.origin_lat.toFixed(6)}, {ride.origin_lng.toFixed(6)}
                 </p>
               </div>
               {ride.via_cities && Array.isArray(ride.via_cities) && ride.via_cities.length > 0 && (
                 <div>
-                  <p className="text-sm text-gray-600">Ciudades intermedias</p>
+                  <p className="text-sm text-neutral-600">Ciudades intermedias</p>
                   <div className="flex flex-wrap gap-2 mt-1">
                     {(ride.via_cities as Array<{ name?: string; selected?: boolean }>).map((city, idx) => (
                       city.selected && (
-                        <span key={idx} className="text-xs px-2 py-1 bg-blue-50 text-blue-700 rounded">
+                        <span key={idx} className="text-xs px-2 py-1 bg-primary-light text-primary-dark rounded">
                           {city.name}
                         </span>
                       )
@@ -243,9 +243,9 @@ export default async function RideDetailPage({
                 </div>
               )}
               <div>
-                <p className="text-sm text-gray-600">Destino</p>
+                <p className="text-sm text-neutral-600">Destino</p>
                 <p className="font-medium">{ride.dest_text}</p>
-                <p className="text-xs text-gray-500">
+                <p className="text-xs text-neutral-500">
                   {ride.dest_lat.toFixed(6)}, {ride.dest_lng.toFixed(6)}
                 </p>
               </div>
@@ -266,30 +266,30 @@ export default async function RideDetailPage({
                     <div>
                       <Link
                         href={`/users/${request.passenger_id}`}
-                        className="text-blue-600 hover:underline font-medium"
+                        className="text-primary hover:underline font-medium"
                       >
                         {request.passenger?.full_name || 'Usuario'}
                       </Link>
-                      <p className="text-sm text-gray-600">
+                      <p className="text-sm text-neutral-600">
                         {request.seats_requested} asiento{request.seats_requested > 1 ? 's' : ''}
                       </p>
                       {request.pickup_text && (
-                        <p className="text-xs text-gray-500 mt-1">
+                        <p className="text-xs text-neutral-500 mt-1">
                           Sube: {request.pickup_text}
                         </p>
                       )}
                       {request.dropoff_text && (
-                        <p className="text-xs text-gray-500">
+                        <p className="text-xs text-neutral-500">
                           Baja: {request.dropoff_text}
                         </p>
                       )}
                       {request.message && (
-                        <p className="text-sm text-gray-700 mt-1 italic">
+                        <p className="text-sm text-neutral-700 mt-1 italic">
                           &ldquo;{request.message}&rdquo;
                         </p>
                       )}
                     </div>
-                    <div className="text-right text-xs text-gray-500">
+                    <div className="text-right text-xs text-neutral-500">
                       {new Date(request.created_at).toLocaleDateString('es-AR')}
                     </div>
                   </div>
@@ -312,20 +312,20 @@ export default async function RideDetailPage({
                     <div>
                       <Link
                         href={`/users/${request.passenger_id}`}
-                        className="text-blue-600 hover:underline font-medium"
+                        className="text-primary hover:underline font-medium"
                       >
                         {request.passenger?.full_name || 'Usuario'}
                       </Link>
-                      <p className="text-sm text-gray-600">
+                      <p className="text-sm text-neutral-600">
                         {request.seats_requested} asiento{request.seats_requested > 1 ? 's' : ''}
                       </p>
                       {request.message && (
-                        <p className="text-sm text-gray-700 mt-1 italic">
+                        <p className="text-sm text-neutral-700 mt-1 italic">
                           &ldquo;{request.message}&rdquo;
                         </p>
                       )}
                     </div>
-                    <span className="text-xs px-2 py-1 bg-yellow-100 text-yellow-700 rounded">
+                    <span className="text-xs px-2 py-1 bg-warning-light text-warning-dark rounded">
                       Pendiente
                     </span>
                   </div>
@@ -347,11 +347,11 @@ export default async function RideDetailPage({
                   <div key={message.id} className="border-b pb-2">
                     <div className="flex justify-between items-start">
                       <p className="font-medium text-sm">{message.author?.full_name || 'Usuario'}</p>
-                      <span className="text-xs text-gray-500">
+                      <span className="text-xs text-neutral-500">
                         {new Date(message.created_at).toLocaleString('es-AR')}
                       </span>
                     </div>
-                    <p className="text-gray-700 mt-1">{message.body}</p>
+                    <p className="text-neutral-700 mt-1">{message.body}</p>
                   </div>
                 ))}
               </div>

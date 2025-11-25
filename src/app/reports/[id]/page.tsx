@@ -46,16 +46,16 @@ export default async function ReportDetailPage({
   }
 
   const severityColors = {
-    low: 'bg-yellow-100 text-yellow-700',
-    medium: 'bg-orange-100 text-orange-700',
-    high: 'bg-red-100 text-red-700',
+    low: 'bg-warning-light text-warning-dark',
+    medium: 'bg-warning-light text-warning-dark',
+    high: 'bg-error-light text-error-dark',
   }
 
   const statusColors = {
-    pending: 'bg-gray-100 text-gray-700',
-    investigating: 'bg-blue-100 text-blue-700',
-    resolved: 'bg-green-100 text-green-700',
-    dismissed: 'bg-gray-100 text-gray-600',
+    pending: 'bg-neutral-100 text-neutral-700',
+    investigating: 'bg-primary-light text-primary-dark',
+    resolved: 'bg-success-light text-success-dark',
+    dismissed: 'bg-neutral-100 text-neutral-600',
   }
 
   const statusLabels = {
@@ -70,8 +70,8 @@ export default async function ReportDetailPage({
       <div className="space-y-6">
         <div className="flex justify-between items-start">
           <div>
-            <h2 className="text-3xl font-bold text-gray-900">Detalle del Reporte</h2>
-            <p className="text-gray-600 mt-1">
+            <h2 className="text-3xl font-bold text-neutral-900">Detalle del Reporte</h2>
+            <p className="text-neutral-600 mt-1">
               #{report.id.slice(0, 8)}
             </p>
           </div>
@@ -79,7 +79,7 @@ export default async function ReportDetailPage({
             <ReportActions reportId={id} currentStatus={report.status} />
             <Link
               href="/reports"
-              className="px-4 py-2 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-50"
+              className="px-4 py-2 text-neutral-700 border border-neutral-300 rounded-md hover:bg-neutral-50"
             >
               ← Volver
             </Link>
@@ -94,30 +94,30 @@ export default async function ReportDetailPage({
             </CardHeader>
             <CardContent className="space-y-2 text-sm">
               <div>
-                <span className="text-gray-600">Tipo:</span>{' '}
+                <span className="text-neutral-600">Tipo:</span>{' '}
                 <span className="font-medium">{report.type}</span>
               </div>
               <div>
-                <span className="text-gray-600">Severidad:</span>{' '}
+                <span className="text-neutral-600">Severidad:</span>{' '}
                 <span className={`px-2 py-1 rounded text-xs ${severityColors[report.severity as keyof typeof severityColors]}`}>
                   {report.severity}
                 </span>
               </div>
               <div>
-                <span className="text-gray-600">Estado:</span>{' '}
+                <span className="text-neutral-600">Estado:</span>{' '}
                 <span className={`px-2 py-1 rounded text-xs ${statusColors[report.status as keyof typeof statusColors]}`}>
                   {statusLabels[report.status as keyof typeof statusLabels]}
                 </span>
               </div>
               <div>
-                <span className="text-gray-600">Fecha:</span>{' '}
+                <span className="text-neutral-600">Fecha:</span>{' '}
                 <span className="font-medium">
                   {new Date(report.created_at).toLocaleString('es-AR')}
                 </span>
               </div>
               {report.resolved_at && (
                 <div>
-                  <span className="text-gray-600">Resuelto:</span>{' '}
+                  <span className="text-neutral-600">Resuelto:</span>{' '}
                   <span className="font-medium">
                     {new Date(report.resolved_at).toLocaleString('es-AR')}
                   </span>
@@ -133,11 +133,11 @@ export default async function ReportDetailPage({
             <CardContent className="space-y-2 text-sm">
               <Link
                 href={`/users/${report.reporter_id}`}
-                className="text-blue-600 hover:underline font-medium block"
+                className="text-primary hover:underline font-medium block"
               >
                 {report.reporter?.full_name || 'Usuario'}
               </Link>
-              <p className="text-xs text-gray-500">ID: {report.reporter_id.slice(0, 8)}</p>
+              <p className="text-xs text-neutral-500">ID: {report.reporter_id.slice(0, 8)}</p>
             </CardContent>
           </Card>
 
@@ -148,13 +148,13 @@ export default async function ReportDetailPage({
             <CardContent className="space-y-2 text-sm">
               <Link
                 href={`/users/${report.reported_user_id}`}
-                className="text-blue-600 hover:underline font-medium block"
+                className="text-primary hover:underline font-medium block"
               >
                 {report.reported_user?.full_name || 'Usuario'}
               </Link>
-              <p className="text-xs text-gray-500">ID: {report.reported_user_id.slice(0, 8)}</p>
+              <p className="text-xs text-neutral-500">ID: {report.reported_user_id.slice(0, 8)}</p>
               {report.reported_user?.suspended && (
-                <span className="inline-block px-2 py-1 text-xs bg-red-100 text-red-700 rounded">
+                <span className="inline-block px-2 py-1 text-xs bg-error-light text-error-dark rounded">
                   Suspendido
                 </span>
               )}
@@ -168,7 +168,7 @@ export default async function ReportDetailPage({
             <CardTitle>Descripción del Reporte</CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-gray-900 whitespace-pre-wrap">{report.description}</p>
+            <p className="text-neutral-900 whitespace-pre-wrap">{report.description}</p>
           </CardContent>
         </Card>
 
@@ -181,12 +181,12 @@ export default async function ReportDetailPage({
             <CardContent>
               <div className="space-y-2">
                 {report.evidence_urls.map((url: string, idx: number) => (
-                  <div key={idx} className="p-3 bg-gray-50 rounded border">
+                  <div key={idx} className="p-3 bg-neutral-50 rounded border">
                     <a 
                       href={url} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-sm text-blue-600 hover:underline break-all"
+                      className="text-sm text-primary hover:underline break-all"
                     >
                       {url}
                     </a>
@@ -206,22 +206,22 @@ export default async function ReportDetailPage({
             <CardContent className="space-y-2 text-sm">
               <Link
                 href={`/rides/${report.ride_id}`}
-                className="text-blue-600 hover:underline font-medium block"
+                className="text-primary hover:underline font-medium block"
               >
                 {report.ride.origin_text} → {report.ride.dest_text}
               </Link>
               <div>
-                <span className="text-gray-600">Fecha:</span>{' '}
+                <span className="text-neutral-600">Fecha:</span>{' '}
                 <span className="font-medium">
                   {new Date(report.ride.date_utc).toLocaleDateString('es-AR')}
                 </span>
               </div>
               <div>
-                <span className="text-gray-600">Estado del viaje:</span>{' '}
+                <span className="text-neutral-600">Estado del viaje:</span>{' '}
                 <span className={`px-2 py-1 rounded text-xs ${
-                  report.ride.status === 'completed' ? 'bg-green-100 text-green-700' :
-                  report.ride.status === 'active' ? 'bg-blue-100 text-blue-700' :
-                  'bg-gray-100 text-gray-700'
+                  report.ride.status === 'completed' ? 'bg-success-light text-success-dark' :
+                  report.ride.status === 'active' ? 'bg-primary-light text-primary-dark' :
+                  'bg-neutral-100 text-neutral-700'
                 }`}>
                   {report.ride.status}
                 </span>
@@ -237,7 +237,7 @@ export default async function ReportDetailPage({
               <CardTitle>Notas del Administrador</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-900 whitespace-pre-wrap">{report.admin_notes}</p>
+              <p className="text-neutral-900 whitespace-pre-wrap">{report.admin_notes}</p>
             </CardContent>
           </Card>
         )}
