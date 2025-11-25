@@ -5,6 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import Link from 'next/link'
 import { ReportActions } from '@/components/report-actions'
 
+export const dynamic = 'force-dynamic'
+
 async function getReportDetails(reportId: string) {
   const supabase = createAdminClient()
   

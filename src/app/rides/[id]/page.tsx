@@ -5,6 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import Link from 'next/link'
 import { RideActions } from '@/components/ride-actions'
 
+export const dynamic = 'force-dynamic'
+
 async function getRideDetails(rideId: string) {
   const supabase = createAdminClient()
   

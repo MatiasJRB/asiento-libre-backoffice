@@ -3,6 +3,8 @@ import { createAdminClient } from '@/lib/supabase/admin'
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
+export const dynamic = 'force-dynamic'
+
 async function getReports(status?: string, severity?: string, type?: string) {
   const supabase = createAdminClient()
   

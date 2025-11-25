@@ -6,6 +6,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import Link from 'next/link'
 import { UserActions } from '@/components/user-actions'
 
+export const dynamic = 'force-dynamic'
+
 async function getUserDetails(userId: string) {
   const supabase = createAdminClient()
   

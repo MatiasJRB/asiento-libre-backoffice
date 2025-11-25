@@ -2,6 +2,8 @@ import { DashboardLayout } from '@/components/dashboard-layout'
 import { createAdminClient } from '@/lib/supabase/admin'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
+export const dynamic = 'force-dynamic'
+
 async function getLeads() {
   const supabase = createAdminClient()
   
