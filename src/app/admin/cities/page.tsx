@@ -151,8 +151,8 @@ export default async function CitiesPage({
                           {city.lat?.toFixed(4) || 'N/A'}, {city.lng?.toFixed(4) || 'N/A'}
                         </td>
                         <td className="py-3 px-4">
-                          <span className={`px-2 py-1 rounded text-xs border ${hierarchyColors[city.hierarchy] || ''}`}>
-                            {hierarchyLabels[city.hierarchy] || city.hierarchy}
+                          <span className={`px-2 py-1 rounded text-xs border ${hierarchyColors[city.hierarchy ?? 1] || ''}`}>
+                            {hierarchyLabels[city.hierarchy ?? 1] || city.hierarchy}
                           </span>
                         </td>
                         <td className="py-3 px-4">

@@ -192,7 +192,7 @@ export function CityEditForm({ city, routes }: CityEditFormProps) {
               <input
                 id="is_active"
                 type="checkbox"
-                checked={formData.is_active}
+                checked={formData.is_active ?? true}
                 onChange={(e) => setFormData({ ...formData, is_active: e.target.checked })}
                 className="w-4 h-4"
               />
