@@ -11,6 +11,8 @@ const navigation = [
   { name: 'Viajes', href: '/rides' },
   { name: 'Reportes', href: '/reports' },
   { name: 'Leads', href: '/leads' },
+  { name: 'Rutas', href: '/admin/routes' },
+  { name: 'Ciudades', href: '/admin/cities' },
   { name: 'Analíticas', href: '/search-analytics' },
   { name: 'Design System', href: '/design-system' },
 ]
