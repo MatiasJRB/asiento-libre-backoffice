@@ -2,6 +2,12 @@ import { DashboardLayout } from '@/components/dashboard-layout'
 import { createAdminClient } from '@/lib/supabase/admin'
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { PageHeader } from '@/components/ui/page-header'
+import { StatusBadge } from '@/components/ui/status-badge'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { EmptyState } from '@/components/ui/empty-state'
+import { Users as UsersIcon } from 'lucide-react'
 
 export const dynamic = 'force-dynamic'
 
@@ -58,12 +64,10 @@ export default async function UsersPage({
   return (
     <DashboardLayout>
       <div className="space-y-6">
-        <div className="flex justify-between items-center">
-          <div>
-            <h2 className="text-3xl font-bold text-neutral-900">Usuarios</h2>
-            <p className="text-neutral-600 mt-1">Gestión de usuarios de la plataforma</p>
-          </div>
-        </div>
+        <PageHeader
+          title="Usuarios"
+          description="Gestión de usuarios de la plataforma"
+        />
 
         {/* Buscador */}
         <Card>
@@ -72,19 +76,16 @@ export default async function UsersPage({
           </CardHeader>
           <CardContent>
             <form method="get" className="flex gap-2">
-              <input
+              <Input
                 type="text"
                 name="search"
                 placeholder="Buscar por nombre o ID..."
                 defaultValue={params.search}
-                className="flex-1 px-4 py-2 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                className="flex-1"
               />
-              <button
-                type="submit"
-                className="px-6 py-2 bg-primary text-white rounded-md hover:bg-primary-dark font-medium"
-              >
+              <Button type="submit">
                 Buscar
-              </button>
+              </Button>
             </form>
           </CardContent>
         </Card>
@@ -138,31 +139,23 @@ export default async function UsersPage({
                           )}
                         </td>
                         <td className="py-3 px-4">
-                          <span className={`text-xs px-2 py-1 rounded ${
-                            user.email_verif_status === 'verified'
-                              ? 'bg-success-light text-success-dark'
-                              : 'bg-warning-light text-warning-dark'
-                          }`}>
+                          <StatusBadge status={user.email_verif_status === 'verified' ? 'verified' : 'pending'}>
                             {user.email_verif_status === 'verified' ? 'Verificado' : 'Pendiente'}
-                          </span>
+                          </StatusBadge>
                         </td>
                         <td className="py-3 px-4">
-                          <span className={`text-xs px-2 py-1 rounded ${
-                            user.role === 'super_admin' ? 'bg-purple-100 text-purple-700' :
-                            user.role === 'admin' ? 'bg-primary-light text-primary-dark' :
-                            'bg-neutral-100 text-neutral-700'
+                          <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
+                            user.role === 'super_admin' ? 'bg-purple-100 text-purple-700 border border-purple-200' :
+                            user.role === 'admin' ? 'bg-primary-light text-primary-dark border border-primary' :
+                            'bg-neutral-100 text-neutral-700 border border-neutral-200'
                           }`}>
                             {user.role}
                           </span>
                         </td>
                         <td className="py-3 px-4">
-                          <span className={`text-xs px-2 py-1 rounded ${
-                            user.suspended
-                              ? 'bg-error-light text-error-dark'
-                              : 'bg-success-light text-success-dark'
-                          }`}>
+                          <StatusBadge status={user.suspended ? 'suspended' : 'active'}>
                             {user.suspended ? 'Suspendido' : 'Activo'}
-                          </span>
+                          </StatusBadge>
                         </td>
                         <td className="py-3 px-4 text-sm text-neutral-600">
                           {new Date(user.created_at).toLocaleDateString('es-AR')}

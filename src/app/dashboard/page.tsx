@@ -1,6 +1,10 @@
 import { DashboardLayout } from '@/components/dashboard-layout'
 import { createAdminClient } from '@/lib/supabase/admin'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { KPICard } from '@/components/ui/kpi-card'
+import { StatusBadge } from '@/components/ui/status-badge'
+import { PageHeader } from '@/components/ui/page-header'
+import { Users, Car, TrendingUp, Star, Activity, AlertCircle, Mail } from 'lucide-react'
 
 export const dynamic = 'force-dynamic'
 
@@ -141,109 +145,71 @@ export default async function DashboardPage() {
   return (
     <DashboardLayout>
       <div className="space-y-8">
-        <div>
-          <h2 className="text-3xl font-bold text-neutral-900">Dashboard</h2>
-          <p className="text-neutral-600 mt-1">Vista general de la plataforma</p>
-        </div>
+        <PageHeader
+          title="Dashboard"
+          description="Vista general de la plataforma"
+        />
 
         {/* KPIs Principales */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Total Usuarios
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{stats.totalUsers}</div>
-              <p className="text-xs text-success mt-1">
-                +{stats.newUsersThisMonth} este mes
-              </p>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Total Usuarios"
+            value={stats.totalUsers.toLocaleString()}
+            subtitle="este mes"
+            icon={Users}
+            trend={{
+              value: stats.newUsersThisMonth,
+              isPositive: stats.newUsersThisMonth > 0
+            }}
+          />
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Viajes este Mes
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{stats.ridesThisMonth}</div>
-              <p className="text-xs text-neutral-600 mt-1">
-                {stats.completedRidesThisMonth} completados
-              </p>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Viajes este Mes"
+            value={stats.ridesThisMonth}
+            subtitle={`${stats.completedRidesThisMonth} completados`}
+            icon={Car}
+            variant="default"
+          />
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Tasa Conversión
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{stats.conversionRate}%</div>
-              <p className="text-xs text-neutral-600 mt-1">
-                Viajes completados
-              </p>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Tasa Conversión"
+            value={`${stats.conversionRate}%`}
+            subtitle="viajes completados"
+            icon={TrendingUp}
+            variant="default"
+          />
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Rating Promedio
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{stats.platformAvgRating}/5</div>
-              <p className="text-xs text-neutral-600 mt-1">
-                Calificación plataforma
-              </p>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Rating Promedio"
+            value={`${stats.platformAvgRating}/5`}
+            subtitle="calificación plataforma"
+            icon={Star}
+            variant="default"
+          />
         </div>
 
         {/* Métricas Secundarias */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Viajes Activos
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{stats.activeRides}</div>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Viajes Activos"
+            value={stats.activeRides}
+            icon={Activity}
+            variant="default"
+          />
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Reportes Pendientes
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold text-orange-600">
-                {stats.pendingReports}
-              </div>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Reportes Pendientes"
+            value={stats.pendingReports}
+            icon={AlertCircle}
+            variant="default"
+          />
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Leads este Mes
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{stats.leadsThisMonth}</div>
-              <p className="text-xs text-neutral-600 mt-1">
-                Total: {stats.totalLeads}
-              </p>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Leads este Mes"
+            value={stats.leadsThisMonth}
+            subtitle={`Total: ${stats.totalLeads}`}
+            icon={Mail}
+          />
         </div>
 
         {/* Actividad Reciente */}
@@ -266,13 +232,12 @@ export default async function DashboardPage() {
                           {new Date(user.created_at).toLocaleDateString('es-AR')}
                         </p>
                       </div>
-                      <span className={`text-xs px-2 py-1 rounded ${
-                        user.email_verif_status === 'verified'
-                          ? 'bg-success-light text-success-dark'
-                          : 'bg-warning-light text-warning-dark'
-                      }`}>
+                      <StatusBadge 
+                        status={user.email_verif_status === 'verified' ? 'verified' : 'pending'}
+                        dot={false}
+                      >
                         {user.email_verif_status === 'verified' ? 'Verificado' : 'Pendiente'}
-                      </span>
+                      </StatusBadge>
                     </div>
                   ))
                 )}
@@ -299,21 +264,26 @@ export default async function DashboardPage() {
                         </p>
                       </div>
                       <div className="flex gap-2">
-                        <span className={`text-xs px-2 py-1 rounded ${
-                          report.severity === 'critical' ? 'bg-error-light text-error-dark' :
-                          report.severity === 'high' ? 'bg-warning-light text-warning-dark' :
-                          report.severity === 'medium' ? 'bg-warning-light text-warning-dark' :
-                          'bg-neutral-100 text-neutral-700'
-                        }`}>
+                        <StatusBadge 
+                          status={
+                            report.severity === 'critical' || report.severity === 'high' ? 'suspended' :
+                            report.severity === 'medium' ? 'pending' :
+                            'active'
+                          }
+                          dot={false}
+                        >
                           {report.severity}
-                        </span>
-                        <span className={`text-xs px-2 py-1 rounded ${
-                          report.status === 'resolved' ? 'bg-success-light text-success-dark' :
-                          report.status === 'investigating' ? 'bg-primary-light text-primary-dark' :
-                          'bg-neutral-100 text-neutral-700'
-                        }`}>
+                        </StatusBadge>
+                        <StatusBadge 
+                          status={
+                            report.status === 'resolved' ? 'completed' :
+                            report.status === 'investigating' ? 'active' :
+                            'pending'
+                          }
+                          dot={false}
+                        >
                           {report.status}
-                        </span>
+                        </StatusBadge>
                       </div>
                     </div>
                   ))

@@ -114,3 +114,49 @@ export interface RideRequest {
   created_at: string
   updated_at: string
 }
+
+export interface SearchLog {
+  id: string
+  user_id: string | null
+  origin_city: string
+  origin_lat: number
+  origin_lng: number
+  origin_text: string
+  dest_city: string
+  dest_lat: number
+  dest_lng: number
+  dest_text: string
+  search_date: string
+  passengers: number
+  results_found: number
+  has_results: boolean
+  converted_to_request_id: string | null
+  did_convert: boolean
+  converted_at: string | null
+  created_at: string
+}
+
+// Tipos para funciones SQL
+export interface TopSearchRoute {
+  origin_city: string
+  dest_city: string
+  search_count: number
+  results_rate: number
+  conversion_rate: number
+  avg_passengers: number
+}
+
+export interface UnsatisfiedDemand {
+  origin_city: string
+  dest_city: string
+  failed_searches: number
+  last_search_date: string
+  avg_passengers: number
+}
+
+export interface SearchByDay {
+  search_date: string
+  total_searches: number
+  with_results: number
+  converted: number
+}

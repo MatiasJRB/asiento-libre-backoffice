@@ -2,6 +2,11 @@ import { DashboardLayout } from '@/components/dashboard-layout'
 import { createAdminClient } from '@/lib/supabase/admin'
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { PageHeader } from '@/components/ui/page-header'
+import { KPICard } from '@/components/ui/kpi-card'
+import { StatusBadge } from '@/components/ui/status-badge'
+import { Button } from '@/components/ui/button'
+import { Car, CheckCircle, XCircle, Activity } from 'lucide-react'
 
 export const dynamic = 'force-dynamic'
 
@@ -60,56 +65,39 @@ export default async function RidesPage({
   return (
     <DashboardLayout>
       <div className="space-y-6">
-        <div>
-          <h2 className="text-3xl font-bold text-neutral-900">Viajes</h2>
-          <p className="text-neutral-600 mt-1">Gestión de viajes publicados en la plataforma</p>
-        </div>
+        <PageHeader
+          title="Viajes"
+          description="Gestión de viajes publicados en la plataforma"
+        />
 
         {/* Stats */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Total Viajes
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{totalRides}</div>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Total Viajes"
+            value={totalRides}
+            icon={Car}
+          />
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Activos
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold text-primary">{activeRides}</div>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Activos"
+            value={activeRides}
+            icon={Activity}
+            variant="default"
+          />
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Completados
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold text-success">{completedRides}</div>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Completados"
+            value={completedRides}
+            icon={CheckCircle}
+            variant="default"
+          />
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Cancelados
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold text-error">{cancelledRides}</div>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Cancelados"
+            value={cancelledRides}
+            icon={XCircle}
+            variant="default"
+          />
         </div>
 
         {/* Filtros */}
@@ -119,45 +107,25 @@ export default async function RidesPage({
           </CardHeader>
           <CardContent>
             <div className="flex gap-2 flex-wrap">
-              <Link
-                href="/rides"
-                className={`px-4 py-2 rounded-md font-medium ${
-                  !params.status || params.status === 'all'
-                    ? 'bg-primary text-white'
-                    : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
-                }`}
-              >
-                Todos
+              <Link href="/rides">
+                <Button variant={!params.status || params.status === 'all' ? 'default' : 'outline'}>
+                  Todos
+                </Button>
               </Link>
-              <Link
-                href="/rides?status=active"
-                className={`px-4 py-2 rounded-md font-medium ${
-                  params.status === 'active'
-                    ? 'bg-primary text-white'
-                    : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
-                }`}
-              >
-                Activos
+              <Link href="/rides?status=active">
+                <Button variant={params.status === 'active' ? 'default' : 'outline'}>
+                  Activos
+                </Button>
               </Link>
-              <Link
-                href="/rides?status=completed"
-                className={`px-4 py-2 rounded-md font-medium ${
-                  params.status === 'completed'
-                    ? 'bg-primary text-white'
-                    : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
-                }`}
-              >
-                Completados
+              <Link href="/rides?status=completed">
+                <Button variant={params.status === 'completed' ? 'default' : 'outline'}>
+                  Completados
+                </Button>
               </Link>
-              <Link
-                href="/rides?status=cancelled"
-                className={`px-4 py-2 rounded-md font-medium ${
-                  params.status === 'cancelled'
-                    ? 'bg-primary text-white'
-                    : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200'
-                }`}
-              >
-                Cancelados
+              <Link href="/rides?status=cancelled">
+                <Button variant={params.status === 'cancelled' ? 'default' : 'outline'}>
+                  Cancelados
+                </Button>
               </Link>
             </div>
           </CardContent>
@@ -222,13 +190,13 @@ export default async function RidesPage({
                           ${ride.price_suggested || '-'}
                         </td>
                         <td className="py-3 px-4">
-                          <span className={`text-xs px-2 py-1 rounded ${
-                            ride.status === 'completed' ? 'bg-success-light text-success-dark' :
-                            ride.status === 'active' ? 'bg-primary-light text-primary-dark' :
-                            'bg-neutral-100 text-neutral-700'
-                          }`}>
+                          <StatusBadge status={
+                            ride.status === 'completed' ? 'completed' :
+                            ride.status === 'active' ? 'active' :
+                            'cancelled'
+                          }>
                             {ride.status}
-                          </span>
+                          </StatusBadge>
                         </td>
                         <td className="py-3 px-4 text-sm text-neutral-600">
                           {new Date(ride.created_at).toLocaleDateString('es-AR')}

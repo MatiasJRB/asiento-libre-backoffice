@@ -4,16 +4,39 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  /* Brand Colors */
-  --color-primary: #1B365D;
-  --color-primary-dark: #0F1F3A;
-  --color-primary-light: #E8ECF3;
-  --color-secondary: #A8E05F;
-  --color-secondary-dark: #8BC34A;
-  --color-secondary-light: #E8F5E9;
-  --color-accent: #FF6B35;
-  --color-accent-dark: #E55A2B;
-  --color-accent-light: #FFE8E0;
+  /* Brand Colors - Asiento Libre */
+  --color-primary-50: #FEF2ED;
+  --color-primary-100: #FDE5DB;
+  --color-primary-200: #FBCBB7;
+  --color-primary-300: #F9B193;
+  --color-primary-400: #F7976F;
+  --color-primary-500: #d1450a; /* Primary brand color - Naranja oscuro */
+  --color-primary-600: #A73708;
+  --color-primary-700: #7D2906;
+  --color-primary-800: #541C04;
+  --color-primary-900: #2A0E02;
+  
+  --color-secondary-50: #FAFAF9;
+  --color-secondary-100: #F5F4F3;
+  --color-secondary-200: #EFEDE9;
+  --color-secondary-300: #e8e6e0; /* Secondary brand color - Beige claro */
+  --color-secondary-400: #D9D6CD;
+  --color-secondary-500: #CAC6BA;
+  --color-secondary-600: #A6A199;
+  --color-secondary-700: #7D7A72;
+  --color-secondary-800: #54524C;
+  --color-secondary-900: #2A2926;
+  
+  --color-accent-50: #FEF2ED;
+  --color-accent-100: #FDE5DB;
+  --color-accent-200: #FBCBB7;
+  --color-accent-300: #F9B193;
+  --color-accent-400: #F7976F;
+  --color-accent-500: #d1450a; /* Accent brand color - Naranja oscuro */
+  --color-accent-600: #A73708;
+  --color-accent-700: #7D2906;
+  --color-accent-800: #541C04;
+  --color-accent-900: #2A0E02;
   
   /* Neutral Colors */
   --color-neutral-50: #F8F8F8;
@@ -28,40 +51,67 @@
   --color-neutral-900: #1A1A1A;
   
   /* Semantic Colors */
-  --color-error: #EF4444;
-  --color-error-light: #FEE2E2;
-  --color-error-dark: #DC2626;
-  --color-warning: #F59E0B;
-  --color-warning-light: #FEF3C7;
-  --color-warning-dark: #D97706;
-  --color-success: #10B981;
-  --color-success-light: #D1FAE5;
-  --color-success-dark: #059669;
-  --color-info: #3B82F6;
-  --color-info-light: #DBEAFE;
-  --color-info-dark: #2563EB;
+  --color-error-50: #FEF2F2;
+  --color-error-100: #FEE2E2;
+  --color-error-200: #FECACA;
+  --color-error-300: #FCA5A5;
+  --color-error-400: #F87171;
+  --color-error-500: #EF4444;
+  --color-error-600: #DC2626;
+  --color-error-700: #B91C1C;
+  --color-error-800: #991B1B;
+  --color-error-900: #7F1D1D;
   
-  /* Surface Colors */
+  --color-warning-50: #FFFBEB;
+  --color-warning-100: #FEF3C7;
+  --color-warning-200: #FDE68A;
+  --color-warning-300: #FCD34D;
+  --color-warning-400: #FBBF24;
+  --color-warning-500: #F59E0B;
+  --color-warning-600: #D97706;
+  --color-warning-700: #B45309;
+  --color-warning-800: #92400E;
+  --color-warning-900: #78350F;
+  
+  --color-success-50: #ECFDF5;
+  --color-success-100: #D1FAE5;
+  --color-success-200: #A7F3D0;
+  --color-success-300: #6EE7B7;
+  --color-success-400: #34D399;
+  --color-success-500: #10B981;
+  --color-success-600: #059669;
+  --color-success-700: #047857;
+  --color-success-800: #065F46;
+  --color-success-900: #064E3B;
+  
+  --color-info-50: #EFF6FF;
+  --color-info-100: #DBEAFE;
+  --color-info-200: #BFDBFE;
+  --color-info-300: #93C5FD;
+  --color-info-400: #60A5FA;
+  --color-info-500: #3B82F6;
+  --color-info-600: #2563EB;
+  --color-info-700: #1D4ED8;
+  --color-info-800: #1E40AF;
+  --color-info-900: #1E3A8A;
+  
+  /* Shadcn Compatibility - usando colores de marca */
   --color-background: #FFFFFF;
-  --color-background-dark: #F9FAFB;
+  --color-foreground: var(--color-neutral-900);
   --color-card: #FFFFFF;
-  --color-card-hover: #F9FAFB;
-  
-  /* Shadcn Compatibility */
-  --color-foreground: var(--color-neutral-800);
-  --color-card-foreground: var(--color-neutral-800);
-  --color-popover: var(--color-card);
-  --color-popover-foreground: var(--color-neutral-800);
+  --color-card-foreground: var(--color-neutral-900);
+  --color-popover: #FFFFFF;
+  --color-popover-foreground: var(--color-neutral-900);
   --color-primary-foreground: #FFFFFF;
-  --color-secondary-foreground: var(--color-neutral-800);
+  --color-secondary-foreground: var(--color-neutral-900);
   --color-muted: var(--color-neutral-100);
   --color-muted-foreground: var(--color-neutral-500);
   --color-accent-foreground: #FFFFFF;
-  --color-destructive: var(--color-error);
+  --color-destructive: var(--color-error-500);
   --color-destructive-foreground: #FFFFFF;
   --color-border: var(--color-neutral-200);
   --color-input: var(--color-neutral-200);
-  --color-ring: var(--color-primary);
+  --color-ring: var(--color-primary-500);
   
   /* Border Radius */
   --radius-xs: 4px;
@@ -107,15 +157,16 @@
   --card-foreground: var(--color-card-foreground);
   --popover: var(--color-popover);
   --popover-foreground: var(--color-popover-foreground);
-  --primary: var(--color-primary);
+  --primary: var(--color-primary-500);
   --primary-foreground: var(--color-primary-foreground);
-  --secondary: var(--color-secondary);
+  --secondary: var(--color-secondary-500);
   --secondary-foreground: var(--color-secondary-foreground);
   --muted: var(--color-muted);
   --muted-foreground: var(--color-muted-foreground);
-  --accent: var(--color-accent);
+  --accent: var(--color-accent-500);
   --accent-foreground: var(--color-accent-foreground);
   --destructive: var(--color-destructive);
+  --destructive-foreground: var(--color-destructive-foreground);
   --border: var(--color-border);
   --input: var(--color-input);
   --ring: var(--color-ring);
@@ -136,15 +187,15 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-primary hover:bg-primary-dark text-white font-semibold py-4 px-6 rounded-2xl transition-colors duration-200;
+    @apply bg-[#d1450a] hover:bg-[#A73708] text-white font-semibold py-4 px-6 rounded-2xl transition-colors duration-200;
   }
   
   .btn-secondary {
-    @apply bg-secondary hover:bg-secondary-dark text-neutral-800 font-semibold py-4 px-6 rounded-2xl transition-colors duration-200;
+    @apply bg-[#e8e6e0] hover:bg-[#D9D6CD] text-neutral-900 border border-[#D9D6CD] font-semibold py-4 px-6 rounded-2xl transition-colors duration-200;
   }
   
   .btn-outline {
-    @apply border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold py-4 px-6 rounded-2xl transition-colors duration-200;
+    @apply border-2 border-[#d1450a] text-[#d1450a] hover:bg-[#d1450a] hover:text-white font-semibold py-4 px-6 rounded-2xl transition-colors duration-200;
   }
   
   .card {
@@ -152,7 +203,7 @@
   }
   
   .input {
-    @apply border border-neutral-200 rounded-sm px-4 py-3 bg-neutral-50 text-neutral-800 placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+    @apply border border-neutral-200 rounded-sm px-4 py-3 bg-neutral-50 text-neutral-800 placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-[#d1450a] focus:border-transparent;
   }
   
   .label {

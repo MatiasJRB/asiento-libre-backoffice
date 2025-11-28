@@ -11,6 +11,8 @@ const navigation = [
   { name: 'Viajes', href: '/rides' },
   { name: 'Reportes', href: '/reports' },
   { name: 'Leads', href: '/leads' },
+  { name: 'Analíticas', href: '/search-analytics' },
+  { name: 'Design System', href: '/design-system' },
 ]
 
 export function DashboardLayout({ children }: { children: React.ReactNode }) {
@@ -31,7 +33,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-8">
-              <h1 className="text-xl font-bold text-neutral-900">
+              <h1 className="text-xl font-bold text-[#d1450a]">
                 Asiento Libre
               </h1>
               
@@ -44,7 +46,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
                       href={item.href}
                       className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                         isActive
-                          ? 'bg-primary-light text-primary-dark'
+                          ? 'bg-[#d1450a]/10 text-[#d1450a] border-b-2 border-[#d1450a]'
                           : 'text-neutral-700 hover:bg-neutral-100'
                       }`}
                     >
@@ -57,7 +59,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
 
             <button
               onClick={handleLogout}
-              className="text-sm text-neutral-700 hover:text-neutral-900 font-medium"
+              className="text-sm text-neutral-700 hover:text-[#d1450a] font-medium transition-colors"
             >
               Cerrar Sesión
             </button>
@@ -76,7 +78,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
                 href={item.href}
                 className={`px-3 py-2 rounded-md text-sm font-medium whitespace-nowrap ${
                   isActive
-                    ? 'bg-primary-light text-primary-dark'
+                    ? 'bg-[#d1450a]/10 text-[#d1450a] border-b-2 border-[#d1450a]'
                     : 'text-neutral-700 hover:bg-neutral-100'
                 }`}
               >

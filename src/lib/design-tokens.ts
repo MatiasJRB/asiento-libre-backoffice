@@ -16,17 +16,17 @@ export const tokens = {
   colors: {
     // Brand colors (colores de marca)
     brand: {
-      primary: '#1B365D',      // Azul petróleo suave - Base de identidad, confianza y solidez
-      primaryDark: '#0F1F3A',  // Azul petróleo oscuro - Hover/pressed states
-      primaryLight: '#E8ECF3', // Azul petróleo claro - Backgrounds suaves
+      primary: '#d1450a',      // Naranja oscuro - Base de identidad, confianza y solidez
+      primaryDark: '#A73708',  // Naranja más oscuro - Hover/pressed states
+      primaryLight: '#FEF2ED', // Naranja claro - Backgrounds suaves
       
-      secondary: '#A8E05F',    // Verde lima - Economía y sostenibilidad
-      secondaryDark: '#8BC34A',
-      secondaryLight: '#E8F5E9',
+      secondary: '#e8e6e0',    // Beige claro - Economía y sostenibilidad
+      secondaryDark: '#D9D6CD',
+      secondaryLight: '#F5F4F3',
       
-      accent: '#FF6B35',       // Naranja coral - Energía, conexión humana, dinamismo
-      accentDark: '#E55A2B',
-      accentLight: '#FFE8E0',
+      accent: '#d1450a',       // Mismo naranja - Energía, conexión humana, dinamismo
+      accentDark: '#A73708',
+      accentLight: '#FEF2ED',
     },
     
     // Neutral scale (escala de grises)

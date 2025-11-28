@@ -1,6 +1,10 @@
 import { DashboardLayout } from '@/components/dashboard-layout'
 import { createAdminClient } from '@/lib/supabase/admin'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { PageHeader } from '@/components/ui/page-header'
+import { KPICard } from '@/components/ui/kpi-card'
+import { StatusBadge } from '@/components/ui/status-badge'
+import { Mail, UserCheck, Send } from 'lucide-react'
 
 export const dynamic = 'force-dynamic'
 
@@ -30,51 +34,33 @@ export default async function LeadsPage() {
   return (
     <DashboardLayout>
       <div className="space-y-6">
-        <div>
-          <h2 className="text-3xl font-bold text-neutral-900">Leads</h2>
-          <p className="text-neutral-600 mt-1">Gestión de leads de la landing page</p>
-        </div>
+        <PageHeader
+          title="Leads"
+          description="Gestión de leads de la landing page"
+        />
 
         {/* Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Total Leads
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{totalLeads}</div>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Total Leads"
+            value={totalLeads}
+            icon={Mail}
+          />
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Suscritos
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold text-success">{subscribedLeads}</div>
-              <p className="text-xs text-neutral-600 mt-1">
-                {totalLeads > 0 ? Math.round((subscribedLeads / totalLeads) * 100) : 0}% del total
-              </p>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Suscritos"
+            value={subscribedLeads}
+            subtitle={`${totalLeads > 0 ? Math.round((subscribedLeads / totalLeads) * 100) : 0}% del total`}
+            icon={UserCheck}
+            variant="default"
+          />
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Emails de Bienvenida
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{welcomeEmailsSent}</div>
-              <p className="text-xs text-neutral-600 mt-1">
-                {totalLeads > 0 ? Math.round((welcomeEmailsSent / totalLeads) * 100) : 0}% enviados
-              </p>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Emails Enviados"
+            value={welcomeEmailsSent}
+            subtitle={`${totalLeads > 0 ? Math.round((welcomeEmailsSent / totalLeads) * 100) : 0}% enviados`}
+            icon={Send}
+          />
         </div>
 
         {/* Tabla de Leads */}

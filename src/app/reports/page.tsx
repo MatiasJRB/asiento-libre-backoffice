@@ -2,6 +2,10 @@ import { DashboardLayout } from '@/components/dashboard-layout'
 import { createAdminClient } from '@/lib/supabase/admin'
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { PageHeader } from '@/components/ui/page-header'
+import { KPICard } from '@/components/ui/kpi-card'
+import { StatusBadge } from '@/components/ui/status-badge'
+import { AlertTriangle, Clock, CheckCircle, AlertCircle } from 'lucide-react'
 
 export const dynamic = 'force-dynamic'
 
@@ -73,56 +77,39 @@ export default async function ReportsPage({
   return (
     <DashboardLayout>
       <div className="space-y-6">
-        <div>
-          <h2 className="text-3xl font-bold text-neutral-900">Reportes</h2>
-          <p className="text-neutral-600 mt-1">Gestión de reportes y denuncias</p>
-        </div>
+        <PageHeader
+          title="Reportes"
+          description="Gestión de reportes y denuncias"
+        />
 
         {/* Stats */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Total Reportes
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">{totalReports}</div>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Total Reportes"
+            value={totalReports}
+            icon={AlertTriangle}
+          />
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Pendientes
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold text-orange-600">{pendingReports}</div>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Pendientes"
+            value={pendingReports}
+            icon={Clock}
+            variant="default"
+          />
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Críticos
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold text-error">{criticalReports}</div>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Críticos"
+            value={criticalReports}
+            icon={AlertCircle}
+            variant="default"
+          />
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium text-neutral-600">
-                Resueltos
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold text-success">{resolvedReports}</div>
-            </CardContent>
-          </Card>
+          <KPICard
+            title="Resueltos"
+            value={resolvedReports}
+            icon={CheckCircle}
+            variant="default"
+          />
         </div>
 
         {/* Filtros */}

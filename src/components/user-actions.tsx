@@ -155,7 +155,7 @@ export function UserActions({ userId, currentRole, isSuspended, userRole }: User
               <select
                 value={selectedRole}
                 onChange={(e) => setSelectedRole(e.target.value)}
-                className="w-full px-3 py-2 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full px-3 py-2 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#d1450a]"
               >
                 <option value="user">Usuario</option>
                 <option value="admin">Administrador</option>
