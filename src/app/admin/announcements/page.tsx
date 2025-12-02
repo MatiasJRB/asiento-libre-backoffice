@@ -164,6 +164,7 @@ export default async function AnnouncementsPage({
                       <th className="pb-3 font-medium">Estado</th>
                       <th className="pb-3 font-medium">Título</th>
                       <th className="pb-3 font-medium">Tipo</th>
+                      <th className="pb-3 font-medium">Audiencia</th>
                       <th className="pb-3 font-medium">Vigencia</th>
                       <th className="pb-3 font-medium">CTA</th>
                       <th className="pb-3 font-medium text-right">Acciones</th>
@@ -201,6 +202,13 @@ export default async function AnnouncementsPage({
                         <td className="py-4">
                           <Badge className={typeColors[announcement.type]}>
                             {typeLabels[announcement.type]}
+                          </Badge>
+                        </td>
+                        <td className="py-4">
+                          <Badge variant="outline" className="text-xs">
+                            {announcement.target_audience === 'both' ? '📱+🌐 Ambos' : 
+                             announcement.target_audience === 'app' ? '📱 App' : 
+                             '🌐 Landing'}
                           </Badge>
                         </td>
                         <td className="py-4">

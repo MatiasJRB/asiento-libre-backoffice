@@ -1,6 +1,7 @@
 export type AnnouncementType = 'info' | 'promo' | 'event' | 'alert' | 'tip'
 export type AnnouncementStatus = 'draft' | 'active' | 'inactive' | 'archived'
 export type CTAAction = 'none' | 'navigate' | 'link' | 'share'
+export type TargetAudience = 'app' | 'landing' | 'both'
 
 export interface CommunityAnnouncement {
   id: string
@@ -17,7 +18,7 @@ export interface CommunityAnnouncement {
   cta_text: string | null
   cta_action: CTAAction | null
   cta_target: string | null
-  target_audience: Record<string, unknown> | null
+  target_audience: TargetAudience
   created_at: string | null
   updated_at: string | null
   created_by: string | null

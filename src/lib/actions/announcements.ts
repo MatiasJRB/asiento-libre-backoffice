@@ -98,6 +98,7 @@ export async function createAnnouncement(
       cta_text: formData.cta_text || null,
       cta_action: formData.cta_action || null,
       cta_target: formData.cta_target || null,
+      target_audience: formData.target_audience || 'both',
       created_by: adminId
     })
     .select('id')
@@ -158,6 +159,7 @@ export async function updateAnnouncement(
       cta_text: formData.cta_text || null,
       cta_action: formData.cta_action || null,
       cta_target: formData.cta_target || null,
+      target_audience: formData.target_audience || 'both',
       updated_at: new Date().toISOString()
     })
     .eq('id', id)
@@ -261,6 +263,7 @@ export async function duplicateAnnouncement(
       cta_text: original.cta_text,
       cta_action: original.cta_action,
       cta_target: original.cta_target,
+      target_audience: original.target_audience || 'both',
       created_by: adminId
     })
     .select('id')

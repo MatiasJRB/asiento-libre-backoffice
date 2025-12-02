@@ -58,7 +58,8 @@ export function AnnouncementForm({ announcement, mode }: AnnouncementFormProps) 
     badge_label: announcement?.badge_label || '',
     cta_text: announcement?.cta_text || null,
     cta_action: announcement?.cta_action || 'none',
-    cta_target: announcement?.cta_target || null
+    cta_target: announcement?.cta_target || null,
+    target_audience: announcement?.target_audience || 'both'
   })
 
   const updateField = <K extends keyof AnnouncementFormData>(
@@ -169,6 +170,27 @@ export function AnnouncementForm({ announcement, mode }: AnnouncementFormProps) 
                     ))}
                   </SelectContent>
                 </Select>
+              </div>
+
+              {/* Audiencia objetivo */}
+              <div>
+                <Label htmlFor="target_audience">Audiencia objetivo *</Label>
+                <Select
+                  value={formData.target_audience}
+                  onValueChange={(value) => updateField('target_audience', value as AnnouncementFormData['target_audience'])}
+                >
+                  <SelectTrigger>
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="both">Ambos (App + Landing)</SelectItem>
+                    <SelectItem value="app">Solo App Móvil</SelectItem>
+                    <SelectItem value="landing">Solo Landing</SelectItem>
+                  </SelectContent>
+                </Select>
+                <p className="text-xs text-gray-500 mt-1">
+                  Define dónde se mostrará este anuncio
+                </p>
               </div>
 
               {/* Orden de visualización */}

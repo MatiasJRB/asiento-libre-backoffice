@@ -49,7 +49,11 @@ export const announcementSchema = z.object({
   cta_target: z.string()
     .max(200, 'El objetivo no puede exceder 200 caracteres')
     .nullable()
-    .optional()
+    .optional(),
+  
+  target_audience: z.enum(['app', 'landing', 'both'], {
+    message: 'Debe seleccionar una audiencia válida'
+  }).default('both')
 }).refine((data) => {
   // Validar que ends_at sea posterior a starts_at si ambos existen
   if (data.starts_at && data.ends_at) {
