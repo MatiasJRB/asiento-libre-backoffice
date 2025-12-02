@@ -13,6 +13,7 @@ const navigation = [
   { name: 'Leads', href: '/leads' },
   { name: 'Rutas', href: '/admin/routes' },
   { name: 'Ciudades', href: '/admin/cities' },
+  { name: 'Anuncios', href: '/admin/announcements' },
   { name: 'Analíticas', href: '/search-analytics' },
   { name: 'Design System', href: '/design-system' },
 ]
