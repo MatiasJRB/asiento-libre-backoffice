@@ -1,4 +1,4 @@
-    {
+{
     "servers": {
         "supabase": {
             "url": "https://mcp.supabase.com/mcp",
@@ -6,5 +6,19 @@
                 "Authorization": "Bearer sbp_1c4be483ec234b62a5bddd3e50e23eb8a8984fc8"
             }
         },
+        "google-forms": {
+            "command": "node",
+            "args": [
+                "/Users/matiasrios/Documents/GitHub/google-forms-mcp/build/index.js"
+            ],
+            "env": {
+                "GOOGLE_CLIENT_ID": "",
+                "GOOGLE_CLIENT_SECRET": "",
+                "GOOGLE_REFRESH_TOKEN": ""
+            }
+        },
+        "vercel": {
+            "url": "https://mcp.vercel.com/matiasjrbs-projects/asiento-libre-backoffice"
+        }
     }
 }
