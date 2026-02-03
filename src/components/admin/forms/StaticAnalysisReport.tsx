@@ -70,7 +70,7 @@ export function StaticAnalysisReport() {
           <Card>
             <CardHeader>
               <CardTitle>Perfil del Usuario</CardTitle>
-              <CardDescription>Análisis de los 74 encuestados</CardDescription>
+              <CardDescription>Análisis de los 85 encuestados</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="space-y-2">
@@ -86,10 +86,10 @@ export function StaticAnalysisReport() {
               <div className="space-y-2">
                 <div className="flex justify-between text-sm">
                   <span className="text-muted-foreground">Frecuencia de Viaje</span>
-                  <span className="font-medium">Ocasional</span>
+                  <span className="font-medium">Ocasional (1-2 veces/mes)</span>
                 </div>
                 <div className="text-sm text-muted-foreground leading-relaxed">
-                  La mayoría viaja "1-2 veces al mes" o "muy de vez en cuando". Esto sugiere un modelo de uso esporádico más que commuting diario.
+                  El modelo de uso es predominantemente esporádico. Sin embargo, aparecen usuarios de "fines de semana" y larga distancia que buscan previsibilidad.
                 </div>
               </div>
             </CardContent>
@@ -109,17 +109,17 @@ export function StaticAnalysisReport() {
               <div className="space-y-2">
                 <h4 className="font-semibold text-sm">🚗 Seguridad ante todo</h4>
                 <p className="text-sm text-slate-600 dark:text-slate-400">
-                  La barrera de entrada no es tanto el precio, sino la <strong>incertidumbre social</strong>. Los usuarios piden perfiles verificados, validación de identidad y saber "quién me lleva".
+                  La barrera de entrada para conductores indecisos es la <strong>selección del pasajero</strong> ("No meto a cualquiera"). Validación de identidad es mandatorio.
                 </p>
               </div>
               
               <div className="space-y-2">
                 <h4 className="font-semibold text-sm flex items-center gap-2">
                     <Dog className="h-4 w-4"/>
-                    Nicho: Mascotas
+                    Nicho: Mascotas y Encomiendas
                 </h4>
                 <p className="text-sm text-slate-600 dark:text-slate-400">
-                  Un hallazgo interesante es la dificultad de viajar con mascotas en micros. Asiento Libre podría capturar este nicho permitiendo filtros "Pet Friendly".
+                  Viajar con mascotas es un dolor en micros. Además, surge la oportunidad de <strong>encomiendas</strong> para conductores que prefieren llevar paquetes que desconocidos.
                 </p>
               </div>
 
@@ -131,9 +131,9 @@ export function StaticAnalysisReport() {
               </div>
 
               <div className="space-y-2">
-                <h4 className="font-semibold text-sm">💬 Terminología</h4>
+                <h4 className="font-semibold text-sm">📍 Nuevas Conexiones</h4>
                 <p className="text-sm text-slate-600 dark:text-slate-400">
-                  Feedback directo sobre UX: usuarios sugieren usar "Micro" en lugar de "Bondi" para sonar más profesional en largas distancias.
+                  Además de la zona, empieza a aparecer demanda de <strong>larga distancia</strong> hacia CABA y La Plata, donde el ahorro de costos es mucho más significativo.
                 </p>
               </div>
             </CardContent>
@@ -146,11 +146,11 @@ export function StaticAnalysisReport() {
                 </CardHeader>
                 <CardContent>
                     <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
-                        <li>Bahía Blanca ↔ Coronel Suárez</li>
+                        <li>Bahía Blanca ↔ Coronel Suárez (Dominante)</li>
                         <li>Bahía Blanca ↔ Monte Hermoso</li>
                         <li>Bahía Blanca ↔ Punta Alta</li>
-                        <li>Bahía Blanca ↔ Dorrego</li>
-                        <li>Bahía Blanca ↔ Tornquist</li>
+                        <li>Bahía Blanca ↔ Tres Arroyos</li>
+                        <li>Bahía Blanca ↔ CABA / La Plata</li>
                     </ul>
                 </CardContent>
              </Card>

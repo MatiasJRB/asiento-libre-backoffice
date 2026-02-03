@@ -1,0 +1,4530 @@
+[
+  {
+    "responseId": "ACYDBNhQlFPMRNqi7VCUTBz9jGzoyPvS3Ae2QQMO3LW0Pl02YPAiWe_jzTiSaOGfiw",
+    "timestamp": "2026-02-02T16:53:51.668106Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "36"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "ccolalonga@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía Blanca - Monte Hermoso "
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjOf7ktEEAVSIRjQ2zAHGMifsB-cFSSyWtJvN14_jvkjkZG2LWGUAb97NvXhA",
+    "timestamp": "2026-02-02T15:56:35.903546Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Incomodidad: viajar en transporte público se hace largo."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "Edad",
+        "answer": "21"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Combi",
+          "Bondi"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "agustinlarumbe1@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - Suárez"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNir-ydjzVhl36e4BgRt_QAjBKpJahT0ajDHoImu_AqOyip37Gjl39uEQddbqA",
+    "timestamp": "2026-02-02T18:12:05.024678Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "31"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "homarquina@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Precio: los pasajes están muy caros."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia- puerto madryn/ Bahia-capital"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgTtFaQPjLBAlICx-E7nf_o9NmwJcUnre-a1PBDrP_S1a_eWK_D7VxQOAP8ZQ",
+    "timestamp": "2026-02-02T15:54:31.954093Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "30"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Combi",
+          "Bondi"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "cabellodelfina@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Precio: los pasajes están muy caros."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia-Dorrego"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjIq55U_SXM2GgkdG2PeutPYz7cnVdnci2zXuiWZ0bk2wnLbkK2yqiOzeVxdg",
+    "timestamp": "2026-02-02T16:45:51.116064Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "Edad",
+        "answer": "37"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Auto de familiares "
+      },
+      {
+        "question": "Si respondiste que no, ¿Qué debería ofrecerte la app para que le des una oportunidad?",
+        "answer": "Buenas condiciones del vehículo,buen manejo del conductor "
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "julicolalonga@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía- sierra de la ventana "
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNhceUhRen-D1mDn0PF4hWTJx-8u-0_L941xKbtGbOHkbnuI8W5Qy9QcfiLLhQ",
+    "timestamp": "2026-02-02T21:41:05.925367Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "30"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "Si respondiste que no, ¿Qué debería ofrecerte la app para que le des una oportunidad?",
+        "answer": "Trato más con personas conocidas y no meto q cualquiera a mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "macialorenzo@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "No, prefiero seguir como estoy."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Viajo solo y cuando quiero o tengo tiempo "
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia - Río Colorado/ Río Colorado - Bahía "
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNiQTuiKv3tOgMojQgA1pP_oe7ebVqeLLPT_SVLa3Waaw7RjiHKhyr43enZ3Kw",
+    "timestamp": "2026-02-02T20:47:52.887770Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "Edad",
+        "answer": "30"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "sebastiansaporitostach@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia / Sierra de La Ventana / Monte Hermoso"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgwGwxAxPR_PALjLA7yrEOhmUt37a2brKghYzkiB1CmhtRKza8SUMDA1hNAHg",
+    "timestamp": "2026-02-02T16:12:53.917818Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": " 29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Uso mi auto",
+          "Bondi"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "natischeopf@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Precio: los pasajes están muy caros.",
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Incomodidad: viajar en transporte público se hace largo."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia Tornquist, Tornquist Huanguelen"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgVdOYsALOaMs2-GjTORUw_ZTnGIuRessE0PwtxKMzQPym-wG0JIkgpmlFIQg",
+    "timestamp": "2026-02-02T15:37:57.590674Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "31"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "Si respondiste que no, ¿Qué debería ofrecerte la app para que le des una oportunidad?",
+        "answer": "estado de las rutas, del trafico, servicios disponibles en la zona "
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "pilidelrio94@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "No, prefiero seguir como estoy."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "No, prefiero seguir como estoy."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia Blanca - Tornquist / Bahia Blanca - Bonifacio "
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgtGbltghNe-XCrpytTMVVUe2tCrJA6PFd4TKz7btULVSt5aoLKxV2prolMmw",
+    "timestamp": "2026-02-02T15:21:52.205975Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "20"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Bondi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "sofiuranga3@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "muchas veces tengo que conseguir viaje en auto porque en el colectivo no permiten felinos ni animales en general."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "bahia blanca - coronel suárez"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjgMDb12rR-vXKfq5T2-U8MT9Z02ps5pQICk-zr457EUVccvZ4dVBiRJ9vfDQ",
+    "timestamp": "2026-02-02T14:54:28.202561Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "20"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Bondi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "schmitzlucia241@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia - Suárez "
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNhjJEYk6dyOF6Dtl_tKUgJGTi8-HlJpzs42MorXlyeeyCyfO5sci4XxZIixHw",
+    "timestamp": "2026-02-02T15:21:32.154413Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "Edad",
+        "answer": "26"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "juanialvarez07@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Facilidad para buscar viajes/pasajeros"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía Blanca - Tres Arroyos"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNiiGuLUPgNz3OKcj8hkXxaYqSxxLBnbQAMjPUGg6dC-mg6nQLIX6QIrjTLKtw",
+    "timestamp": "2026-02-02T14:57:27.975268Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "25"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Combi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "martinapignottipsi@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - Monte Hermoso/ Monte Hermoso- Bahia "
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjhSyDwVhMyvmKydKBnFTe0MUYwAvY5LEz7U50NsuW-XKpOyJZMBHPBthGRXg",
+    "timestamp": "2026-02-02T15:18:19.019906Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "Edad",
+        "answer": "31"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Combi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "sebaslejona@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia - Pringles"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjkMcuaJ9-QwmgiJopDkSOxWkzTaILNPrs4suxMPhgQypVK6bfLlKYEsBfJUA",
+    "timestamp": "2026-02-02T18:22:26.528417Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo."
+        ]
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Combi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Casi nunca"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "manuelljordann@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - Monte Hermoso"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjfcHnVB2Jtq9dv6yTmeTN6_kVRYBFbXTIpmtcGgHJ0CGbDuRbo9PMzHg19fA",
+    "timestamp": "2026-02-02T21:11:51.184931Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "27"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "Si respondiste que no, ¿Qué debería ofrecerte la app para que le des una oportunidad?",
+        "answer": "Llevar alguna encomienda que alguna persona necesite "
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "renzociccone6@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía Blanca / Stroeder "
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgde3pFMntqaC9rKdRvbcfL2AitPnWAzEf8-i9N_W0wVQqSF9FQHlV4DuwK_w",
+    "timestamp": "2026-02-02T16:23:49.030968Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "32"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "facu.zamora2@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia Monte"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNiItB2eeAkzlzge8uz83cXNUFUA6yQyAqDmnRLm3O2BRJ9I78ZTfAqJfzGnPA",
+    "timestamp": "2026-02-02T22:58:48.664268Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "31"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "reschini8@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Precio: los pasajes están muy caros."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía-monte hermoso"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNitEEnV6gGI8FF-TAbNAvB67B7TLw7WUPaNkAenFmYWKoeQCJxizMyv1c7nyA",
+    "timestamp": "2026-02-02T18:40:44.901346Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "27"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Combi",
+          "Bondi"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "ayelengrande@hotmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia - General conesa"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNipZqzZCVhQoiyGyRYTgSjkjK0oFgEiF_fNbgFk1AgO5yCOUIerHU4DRqnkQA",
+    "timestamp": "2026-02-02T18:35:43.729610Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "55"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "Si respondiste que no, ¿Qué debería ofrecerte la app para que le des una oportunidad?",
+        "answer": "."
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "nicolasrivas.nicolasrivas@gmail.com"
+      },
+      {
+        "question": "¿Algún comentario que quieras sumar?",
+        "answer": "."
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Precio: los pasajes están muy caros."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Pigue BB"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNha714kST_FWfsZN44QBszQXLKeJIH3x1VbSVSHAsdzqmcVhODEX-zzeIwuKg",
+    "timestamp": "2026-02-03T01:31:35.798685Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Seguridad: no saber con quién viajo si contacto por redes sociales."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "Edad",
+        "answer": "32"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Bondi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "jdepastena@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia-CABA"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNg085N-_KV183XH3VxFTc6ScdZJBgmDqYlCO5sRF1gPqAcI9vhA_uKcKqi4dA",
+    "timestamp": "2026-02-02T17:49:36.492311Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "25"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "santiponce2001@gmail.com"
+      },
+      {
+        "question": "¿Algún comentario que quieras sumar?",
+        "answer": "En vez de “bondi” creo que lo más correcto sería “Micro”"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Precio: los pasajes están muy caros."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Quequén - Bahía Blanca"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNiu_EeOkOcBki_VU7S3TJcipqQSQ0qXUCaXB9PKy9O4i6Wo20e6JWlm3svYbQ",
+    "timestamp": "2026-02-02T16:46:35.845603Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "33"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Casi nunca"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "marilenacolalonga92@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "No, prefiero seguir como estoy."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía Sierra "
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNj72hLHTXFmAX8cLS3QLB0e1Uw5PSwNTibw9t1cTkOxDcHyTyX-IGvWK6VriA",
+    "timestamp": "2026-02-02T16:20:01.234848Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "21"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Combi",
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram",
+          "Camión "
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "tobiasscholl38@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Suarez/Bahia Bahia/Suarez"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNg0OSzR13KSMfzvlgKvuL_2YZpT0RXZlhDaoks8vRnJwfSguduAKooF-Im3Bg",
+    "timestamp": "2026-02-02T18:34:04.082666Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Incomodidad: viajar en transporte público se hace largo."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "Edad",
+        "answer": "23"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "9estefaniagutierrez9@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía-laprida"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjnFdMUC2lx1tmqbjZ5zp3oELAa-jcyHAKoJWF-5QIvV1xVLypDTV-UfbV8zw",
+    "timestamp": "2026-02-02T16:55:17.955688Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "Edad",
+        "answer": "34"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Uso mi auto",
+          "Combi",
+          "Bondi"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "cielo.pasten@yahoo.com.ar"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Precio: los pasajes están muy caros.",
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Seguridad: no saber con quién viajo si contacto por redes sociales."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - Monte Hermoso"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNihezItQ11Uk4LLXZNImmW-SRoWGIXU071lYvn3RVQZuu1GZVraetZnH5az6A",
+    "timestamp": "2026-02-02T20:12:41.864012Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "34"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "nadiabarrios.o@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía Suarez "
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjlR8guF0e__nxFHXYvWbqc8uKkhDrZA-sBv6cDEKMAqPoMPOC4-UzNNH2inA",
+    "timestamp": "2026-02-02T18:36:46.040408Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "28"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "loanagutierrez1997@hotmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Incomodidad: viajar en transporte público se hace largo.",
+          "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia-tornquist"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNiqQ6yTz0q_CnOeEmM3Q681PcUJeS5lKmQSv9dtoS3LYZ7xN2jUBDhI7LTpcQ",
+    "timestamp": "2026-02-02T17:20:52.130165Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Incomodidad: viajar en transporte público se hace largo."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "Edad",
+        "answer": "35"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Bondi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "ginaaa501@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia - Punta"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNiEHChEj_ReQyNI_10qa6d8xk30RvdJxETz1dShegNtyRDqbrYSkHU7BdsluA",
+    "timestamp": "2026-02-02T21:24:23.612490Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "30"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "gustavo_reiner@hotmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia - La Plata"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjVFrFWqFUt8R7nmBqEQM6oMXy_2UM-oeLcVZ2iJrc_AJ063IZEJrmAN6eu1Q",
+    "timestamp": "2026-02-02T15:29:40.663062Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Precio: los pasajes están muy caros."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "Edad",
+        "answer": "80"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "mayte2011@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "bahia.monte hermoso .... bahia tres arroyos"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNg0WUD_QCrFGdnU-StOc9lIbRH96GG-eZx7ktqd-x9fUDu9OOzMBvYICC-jMw",
+    "timestamp": "2026-02-02T16:06:02.576443Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Precio: los pasajes están muy caros."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo."
+        ]
+      },
+      {
+        "question": "Edad",
+        "answer": "19"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Bondi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "sofi.pome@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía Blanca - CABA"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjoLmvfmdFwX_EfFVLqfKcteZMqJ6G4PV5orkzNnWJQkTcL6jwGkXNq6aOg7A",
+    "timestamp": "2026-02-02T15:41:54.725821Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Todas las semanas"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "camila.aldazabal@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Seguridad: no saber con quién viajo si contacto por redes sociales."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Dorrego - Bahia"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNhlTc2FZrcZJ6fWt9zJ1KR82iePTzNm07v4uFWRTZ6OhGktNdZGKKJfRLY5Ag",
+    "timestamp": "2026-02-02T13:48:14.742157Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Combi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "meli.maraschio@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Precio: los pasajes están muy caros."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía Blanca - Monte Hermoso"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNhXo9GER_1md3CB1GVJIi5WDMhVnt4yCjE9AQzNhYcYtTmDeoyiEdWqnVXGIw",
+    "timestamp": "2026-02-02T16:48:42.345288Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Uso mi auto",
+          "Combi"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Casi nunca"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "camilamarinetti@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Seguridad: no saber con quién viajo si contacto por redes sociales."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - Monte Hermoso"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNhhx5YAkCBnEI4fOHZngcAD41X7SmiY0qQyLCjd_9YSEIf4-DszVrsMVOuk8g",
+    "timestamp": "2026-02-02T19:56:52.000090Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "22"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+      },
+      {
+        "question": "Si respondiste que no, ¿Qué debería ofrecerte la app para que le des una oportunidad?",
+        "answer": "-"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Todas las semanas"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "milicolman05@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Seguridad: no saber con quién viajo si contacto por redes sociales."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia - General San martin, La Pampa"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgSg5sL1fSQoGEBoStfLLcLehpWbTnHP-EWOPHpwXraKrotacQ6caHBsA6E5A",
+    "timestamp": "2026-02-03T01:04:41.548312Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "ivandc26@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "-"
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Tres arroyos"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNihoeU7uJ6d_ALB3rh4gE188VLUzhyuuCdT5k9iA3p5U5dA-qLyrRSC-McdMg",
+    "timestamp": "2026-02-02T18:07:31.712599Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "Edad",
+        "answer": "31"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "figaromicaela@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Incomodidad: viajar en transporte público se hace largo.",
+          "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía Blanca - Tres Arroyos"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNirpsoDUwp17BcLmBXNUUiULp8kaeQckBSjHEB0ceMAxJgOOQbFdjoCx09NkQ",
+    "timestamp": "2026-02-02T14:37:01.840690Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "Edad",
+        "answer": "29 años"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Bondi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "gimenamartorelli@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - punta alta "
+      },
+      {
+        "question": "¿Algún comentario que quieras sumar?",
+        "answer": "Me gustaría disponer de un servicio que me acerque a las termas de médanos por ejemplo o a las de cargue, los horarios de colectivo o combis son muy incómodos."
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjRTKhLNqbh28bWHEeopCMagF6dVRhLVgRMdoLarkJ9HOZ1BiehIFFCnDyqgg",
+    "timestamp": "2026-02-02T16:06:16.039878Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "22"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Bondi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "schtrebautista@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - Suárez "
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNiDrx6EjrUI8gSYM2Fk1oyFtYe8voMlyFB60UuNX5S9QBIx4G3GT1VYL7eKoQ",
+    "timestamp": "2026-02-02T18:14:38.748542Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "31"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "melisa.acosta@outlook.es"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia - Rivera"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgb5Vpvn0nOWNbGiDyG_NcB3P5fuRx7HxwQqN2GgAmSQkHQjIfQQgRax9ztKw",
+    "timestamp": "2026-02-02T18:12:44.899404Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "31"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "puig.agostina@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia - Punta Alta"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgTUg3nEgnbmcTO8G_h-gjCEZGwg4GKRPspSJJHadHyK_yPZfEQHLMYhTWMJQ",
+    "timestamp": "2026-02-02T16:47:57.642093Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "28"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "palobarberenarivas@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahìa-Suarez"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNhsbBzPEhJX34JGdsGVFytQWqTmcAwVM4m1e2cz0oU-UD9AV_2zac1cHt_NFw",
+    "timestamp": "2026-02-02T18:23:44.374216Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Combi",
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "gutierrezgguadalupe@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Precio: los pasajes están muy caros.",
+          "Horarios: hay poca frecuencia o no me sirve."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía-MH"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNh33DC9VGkZnc12eSuZAzwHbhjD0zFHDLNpayAqXbROyfoa9SKj_K_eLGzzRw",
+    "timestamp": "2026-02-02T20:05:13.974337Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Casi nunca"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "juanmariabianco13@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Tres Arroyos - Bahia "
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNj9C-1T_xwg1Z3NxVookZz2mIRxhAT_I2bZWtDiY0lpvyZ5m81m_q7FKEUAYw",
+    "timestamp": "2026-02-02T16:57:35.992012Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Uso mi auto",
+          "Bondi"
+        ]
+      },
+      {
+        "question": "Si respondiste que no, ¿Qué debería ofrecerte la app para que le des una oportunidad?",
+        "answer": "Si viajo sola, preferiría viajar con gente de confianza o conocida, no me animo a viajar con desconocidos en un mismo auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "rocioluciani1996@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "No, prefiero seguir como estoy."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía Blanca - Monte Hermoso"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgavAWZa8WYU5Wo6aXkTGbgA_dwZkMb0f1lNzOuU16bZ7UHN9yii6RzLd5S4w",
+    "timestamp": "2026-02-02T17:34:30.678008Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "Edad",
+        "answer": "31"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "simonpontet11@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía-monte hermoso"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjuTe3Ly33VBYG4EuwIH8DOKrwvklh5SBrNPO1J1p8IUGxiOJA4B7NqwzxRfg",
+    "timestamp": "2026-02-02T16:24:57.617451Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "34"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Todas las semanas"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "sjm.1991@hotmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "No, prefiero seguir como estoy."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "La pampa"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNidBD8tAevA-8xGmZ17cwXXtTxZP8A59QgZskwPEyReiMgaa14vecvTiCGz8Q",
+    "timestamp": "2026-02-02T15:17:45.847352Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "Edad",
+        "answer": "37"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "Cristianswaels9@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Seguridad: no saber con quién viajo si contacto por redes sociales."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía monte hermoso"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgv3v2UXAHkGwC_1zzP05wo5VrZ6zaJpGO5Qu3SMLA19EgLN5WwGRVo1y0f1w",
+    "timestamp": "2026-02-02T16:22:19.669586Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "28"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Combi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Todas las semanas"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "diego.latorre14@hotmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía blanca "
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNimvn_uRnJ-N-kgQtT9e464QYlPhGfttq4hzw9qtOsGMyDS91s5ivipQziBjA",
+    "timestamp": "2026-02-02T16:01:45.696365Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "Edad",
+        "answer": "22"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "mategon06@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - Suárez"
+      },
+      {
+        "question": "¿Algún comentario que quieras sumar?",
+        "answer": "Valoración de perfil de conductor y pasajero. // Que el conductor ingrese el modelo de su vehículo (y que sea visible en la búsqueda de viaje) para que el pasajero al estar buscando viaje pueda comparar y buscar la opción más económica o segura (no es lo mismo una Ranger nueva que un Clio 2004). // El conductor y pasajero tengan en su perfil el número de cuantos viajes tienen completados (podría terminar en segmentación al elegir a personas con un número alto de viajes realizados y no dan oportunidad a usuarios nuevos). // Historial de viajes (privado). // Opción para el conductor de colocar rango de horario de partida deseada. // Opción para colocar método de pago preferido en el anuncio (solo transferencia, efectivo y transferencia, solo efectivo)."
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjid8sigNZnmv7RmMyXSJnRWB_pQfuC08qyaiJ7Ia2VKl56hdoWF6sdu3B6VA",
+    "timestamp": "2026-02-02T17:25:52.929035Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "65"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "cad@uns.edu.ar"
+      },
+      {
+        "question": "¿Algún comentario que quieras sumar?",
+        "answer": "Recomiendo ver apps similares. En España utilicé blablacar, es bastante \"chula\""
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Madryn, buenos aires\n"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNiO6M815WQ576k1z5khP9Dq60SUOqsnEPhlEd5_9SKAbyy-6NReba53g6oZtg",
+    "timestamp": "2026-02-02T15:32:13.395129Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Valoraria todo. Pero me parece fundamental como para en Uber por ejemplo, poder saber quién es el conductor y en qué vehículo voy a viajar. También sería importante que los costos del viaje sean menores que un pasaje en combi/colectivo, porque de no ser así seguiría eligiendo esos medios por seguridad."
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Todos los anteriores "
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Todas las semanas"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "camifbarrios@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Dorrego-Bahia"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjlRaN5A34OU2GdmUQx-Jhp9Qn7Op2cRoCh6zDO7BBQiDikT5XAHwWfOMnzxw",
+    "timestamp": "2026-02-02T17:29:34.449409Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "27"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "ferminetulain@gmail.com"
+      },
+      {
+        "question": "¿Algún comentario que quieras sumar?",
+        "answer": "Me gustaría que tanto conductores como pasajeros tengan un perfil con comentarios/reviews"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia Monte "
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNj_X7m76Y8_LvIzyT91XbgnXJfWnCtB7NiIPH0DXcCPwbxhFec8QzrP3yVeXA",
+    "timestamp": "2026-02-02T21:26:37.201738Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Todas las semanas"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "esteban.zurita1096@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Seguridad: no saber con quién viajo si contacto por redes sociales."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "bahia-darregueira"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNhxZytDhtLx71I8MPDXI1TvYjVh8Q8jXtcoe2aQYbdp2-bFuIwj59TfA1a3iA",
+    "timestamp": "2026-02-02T17:42:38.006734Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "31"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "florenciadiez94@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía-Monte Hermoso, Bahía-Villarino"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNg6KxVpZn5Q-v42ed9qVD3z0Qmp5U70sZm9gQ4JVQ8IBrB70bZ-6q6mbAxlEg",
+    "timestamp": "2026-02-02T16:14:27.334187Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+      },
+      {
+        "question": "Edad",
+        "answer": "55"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "centuteki@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia-Dorrego-tres arroyos"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNiTUtuTI9siYCDLfWuWu-UQQTj5vhRukPXFhWunO6_RJJf5dzDNylHs14jcgA",
+    "timestamp": "2026-02-02T15:03:17.434567Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "30"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "Si respondiste que no, ¿Qué debería ofrecerte la app para que le des una oportunidad?",
+        "answer": "Datos del chofer"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "mmartingarmendia@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "No, prefiero seguir como estoy."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Estado de la Ruta"
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia Blanca - Saavedra"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjyrjNs-q01q0wCPUHLDxvlceUNQL1ANsJnFcYvIVUhf8Md8E-odNRcRVXipA",
+    "timestamp": "2026-02-02T17:22:58.417122Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "Edad",
+        "answer": "58"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "marga0443@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia/ Suarez"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgPB4Gmv1Mr4yLM8j-scxcaDrJxzlmIybMBmrDjqPzKgWxvswY1UdSnkT1L_w",
+    "timestamp": "2026-02-02T17:05:55.256094Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "Edad",
+        "answer": "28"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Uso mi auto",
+          "Bondi"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "celeste.sp97@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Precio: los pasajes están muy caros.",
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia-monte , bahia-sierra"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNiH7be09wPRYNSoip6DYnxkPEElvlQy3zkjsdNzFUHWXeopsCa9Sb86NiUDMA",
+    "timestamp": "2026-02-02T18:04:01.822531Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "Edad",
+        "answer": "26"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Combi",
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "morenabarberenarivas@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Pigüé - Bahía blanca "
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjQXKlo-vuO3SMcsDoyMMBbUUz-fO1nl0b949nKlGcsLttjKUSDJeNbSeWHwA",
+    "timestamp": "2026-02-02T21:17:31.666536Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "30"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram",
+          "Uber "
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Casi nunca"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "emanuel7vazquez@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Precio: los pasajes están muy caros."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - Cerri, Bahía - White, Bahía - Monte, Bahía - Punta Alta"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNiDCMAuABDd5mJzDK-oeGKCcwM40RxCthOd1QK0PJCyclOeOEqr9uEI8_ZSQg",
+    "timestamp": "2026-02-02T20:06:34.682246Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "28"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "gabyhiriart.gh@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - Tornquist"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjvVT0ZpjGc-vVpS3Y-efDnvjdM83T1dY91rUcBAqxReMq4EEZL7PKCbvqBuQ",
+    "timestamp": "2026-02-02T16:47:34.653864Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Uso mi auto",
+          "Combi",
+          "Bondi"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Todas las semanas"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "sofiarribas96@gmail.com"
+      },
+      {
+        "question": "¿Algún comentario que quieras sumar?",
+        "answer": "-"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - Dorrego"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNg6HZ5R5ArsTiBJXSXTVPKt6RN2e9s_YkFIgOaHK5f4LAoJDmAWxwIleRL3_Q",
+    "timestamp": "2026-02-02T14:28:45.750248Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "34"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Casi nunca"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "agustinaisladg@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - Monte Hermoso"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNiBj-gy1ZegkdIgdJEB3GweRNidUkTkMr-Gtd1lf26NJvZRWKaXXm4DE4ftFA",
+    "timestamp": "2026-02-02T19:55:59.219493Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "31"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "ignacio.n.eleno@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia - Suarez"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNhtUM1se3V8vwB96wF8VKYKzPDAple25YWVNoX18T0rjzqDZVpf_mfacgZyYA",
+    "timestamp": "2026-02-02T17:47:12.313242Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Precio: los pasajes están muy caros.",
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Incomodidad: viajar en transporte público se hace largo."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Bondi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "berenicemunozok@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía pehuen co"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgKZUnc2FMnAS453GnVwYHjaHVWD3nFkjV5i2jxRhZZtot-PjcPJDpX6q2Few",
+    "timestamp": "2026-02-02T21:34:57.599244Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "Si respondiste que no, ¿Qué debería ofrecerte la app para que le des una oportunidad?",
+        "answer": "No es por la app en si. Sino que no me gusta viajar con desconocidos y prefiero manejar yo o conocer a quien maneja."
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "santii.amusquibar@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "No, prefiero seguir como estoy."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "No, prefiero seguir como estoy."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Seguridad: no saber con quién viajo si contacto por redes sociales."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Monte hermoso"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgiV3dfTtK96tMPmoxAYyBS7qPplKPBK6FR_HxZO7MZNXoxHPvZ8tV6_Vifiw",
+    "timestamp": "2026-02-02T15:09:44.471586Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "Edad",
+        "answer": "22"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Bondi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "bautischmitz45@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia-Suarez"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjGA4OUO_l6nQmsG8T-g-BTY5WF1O1L1OmwEG_S8tNbBMZmSO69F56b4nl5Xw",
+    "timestamp": "2026-02-02T16:12:55.622425Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "65"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "markraem@hotmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia Monte Hermoso "
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNj4CBY5cFpo4Nc6xPmLz-GpEEGxZ5azwgbtaa4Nv0802uiD-HYyZBr3MHBbQg",
+    "timestamp": "2026-02-02T17:37:23.490856Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Uso mi auto",
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "kuyengraz@hotmail.com"
+      },
+      {
+        "question": "¿Algún comentario que quieras sumar?",
+        "answer": "Es una genia Meli Maraschio la sigo desde siempre "
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Precio: los pasajes están muy caros.",
+          "Seguridad: no saber con quién viajo si contacto por redes sociales."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia-Monte Hermoso. Bahia- Pehuen Co. Bahia-Sierra de la Ventana"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjrbig9VUJWoo166MxbTGNQkubDFZOnJIo9fuJHbX2i9VpAiWkEX25frI2Gpw",
+    "timestamp": "2026-02-02T17:00:24.541206Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "27"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Combi",
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "delfinarivas@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Incomodidad: viajar en transporte público se hace largo."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Ahorrar plata dividiendo gastos."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "bahía pigue "
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjrrRxR7lzDR8_cIkwWaS3z3NH97HP-L4EGirtheWTVjQJM5_OnVuAN4dPrOQ",
+    "timestamp": "2026-02-02T15:52:36.222661Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "31"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+        ]
+      },
+      {
+        "question": "Si respondiste que no, ¿Qué debería ofrecerte la app para que le des una oportunidad?",
+        "answer": "Que diga el precio y el horario justo de que te buscan "
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "avalos.yesi.94@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Seguridad: no saber con quién viajo si contacto por redes sociales.",
+          "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía -Dorrego/ monte hermoso- sierra "
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNhVrW9HHEYLVpDEEO6OW070hacMyJf5IdacBdBg7VJAZPI48rQe1-ZKxJlYbA",
+    "timestamp": "2026-02-02T16:20:48.028904Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "30"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Uso mi auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "mlourdesbernacki@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "No, prefiero seguir como estoy."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía Blanca - Monte Hermoso.Bahía Blanca- General Roca. Bahía Blanca - Punta Alta"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNhGQPuxXThCFUYxPOuXd54BYhxV2r4m3wvkx8TfWJ25qxaQfFV8Drh1lYrqpw",
+    "timestamp": "2026-02-02T18:08:18.114158Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Precio: los pasajes están muy caros.",
+          "Horarios: hay poca frecuencia o no me sirve."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "Edad",
+        "answer": "28"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Combi",
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram",
+          "Familiares nos buscan"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "analialdrighetti@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - Suárez , Bahía - Monte Hermoso"
+      },
+      {
+        "question": "¿Algún comentario que quieras sumar?",
+        "answer": "Si la app es para conseguir viajes, tener los datos mínimos del chofer. Solo para mayor tranquilidad"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNhwQDrq-SUaJfrpFbJ1u4QXYktXkC2Iq6T9RGCRzKrglN3KrvnwTMubX6UZ4Q",
+    "timestamp": "2026-02-02T18:11:47.682656Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "27"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Uso mi auto",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "abigailbrandi24@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Seguridad: no saber con quién viajo si contacto por redes sociales.",
+          "Costo: si uso el auto y viajo sin compañía, me sale muy caro."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia-conesa "
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgRiXWQmKVrKe-BSIrDnFG0_emAq0BSpB0acYeaqMjQzwT2-yQkZqx_WuxYTg",
+    "timestamp": "2026-02-02T20:10:58.467337Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "Edad",
+        "answer": "21"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Combi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram",
+          "Familiares"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "prosioj@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía- Pringles"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgEoUhr8gAqB0NHSO8CmKKjhyff24V2wMowdcX-ulxz5AUNBE8t3NCNPBMp2Q",
+    "timestamp": "2026-02-02T15:36:25.332504Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "21"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "pilarderamo@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Seguridad: no saber con quién viajo si contacto por redes sociales."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia- Tres arroyos"
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjZsNYj4AyKmF0R_P2RUbSeZTnw-CPf5BYka6XCbdRPgUKDMibYRF0oU2H2LQ",
+    "timestamp": "2026-02-02T16:56:36.930965Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Seguridad: no saber con quién viajo si contacto por redes sociales."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "Edad",
+        "answer": "23"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "cousojulieta.4@gmail.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía Blanca - tres arroyos"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNii-OolrLgNlpZ4dDkvTgqPeI-Itl1O2RdJAr8gJLbpCapMoHUEk0Fhhz49qQ",
+    "timestamp": "2026-02-02T14:58:53.018532Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "26"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "felipemonteca@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Precio: los pasajes están muy caros."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Llegar más rápido y cómodo."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - tres arroyos "
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgiF1PbnUhjGP_VN8wB-iVhdX-5Nfuw-D6L4R50Ey4dIQcErXRK6CJNl_SIRA",
+    "timestamp": "2026-02-02T17:04:30.666206Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Conductor/a: Tengo auto y viajo con lugar."
+      },
+      {
+        "question": "Edad",
+        "answer": "60"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Uso mi auto",
+          "Combi"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "silvinarivas65@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Horarios: hay poca frecuencia o no me sirve.",
+          "Ruta en mal estdo"
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía Pigue "
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNiwvGErPnKgaSvV0_T80THlu4AeeDsjJrOToZuaZ-K81QwfV8_PEfBft4J9Qw",
+    "timestamp": "2026-02-02T17:06:08.529654Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "36"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "voy de pasajero en otro auto"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Casi nunca"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "celso2014.marteletto@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "no llego a tener dinero para viajar"
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía blanca - Villa ventana / Bahía blanca - Monte Hermoso"
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNh74mcpuoeIsgiWfytoZ3iJ0JZz4a4v2bhT8DieeRFD5YC45nMzI0CaakDLlg",
+    "timestamp": "2026-02-02T21:34:12.726574Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Ambos: A veces manejo, a veces busco viajes."
+      },
+      {
+        "question": "Edad",
+        "answer": "29"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Uso mi auto",
+          "Bondi",
+          "Coordino con amigos "
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "gonzalogarcia047@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Tal vez, tendría que probarla."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Incomodidad: viajar en transporte público se hace largo."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Llegar más rápido y cómodo.",
+          "Saber quién es el conductor/pasajero antes de subirme."
+        ]
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía - tres arroyos "
+      },
+      {
+        "question": "Género ",
+        "answer": "Hombre"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNgIyaF8BSy9zFZ2gxPYzXfihzYjXEkhw5vWLXVhu0jo0bmFQqYO4_FfR0GDvg",
+    "timestamp": "2026-02-02T18:51:03.165491Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": [
+          "Precio: los pasajes están muy caros.",
+          "Horarios: hay poca frecuencia o no me sirve."
+        ]
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": [
+          "Ahorrar plata dividiendo gastos.",
+          "Llegar más rápido y cómodo."
+        ]
+      },
+      {
+        "question": "Edad",
+        "answer": "27"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": [
+          "Combi",
+          "Bondi",
+          "Coordino viajes particulares por Facebook/Whatsapp/Instagram"
+        ]
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Muy de vez en cuando"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "lendaiana2009@live.com"
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahía-conesa "
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  },
+  {
+    "responseId": "ACYDBNjKabD9ikV2S40OmpK-NGe2KKq_8IIWQzB2vjOyDQ02K2S4T2T-e2TfBA9bew",
+    "timestamp": "2026-02-02T15:24:36.052977Z",
+    "answers": [
+      {
+        "question": "Cuando viajás, ¿cuál es tu rol?",
+        "answer": "Pasajero/a: Busco cómo ir."
+      },
+      {
+        "question": "Edad",
+        "answer": "22"
+      },
+      {
+        "question": "¿Cómo la transitás?",
+        "answer": "Combi"
+      },
+      {
+        "question": "¿Con qué frecuencia viajás entre Bahía Blanca y otras localidades de la zona? ",
+        "answer": "Una/dos veces al mes"
+      },
+      {
+        "question": "Correo electrónico",
+        "answer": "florkees124@gmail.com"
+      },
+      {
+        "question": "Si sos pasajero/a y existiera una app que te permite ver viajes particulares disponibles hacia tu destino, ¿la usarías? ",
+        "answer": "¡Sí! Mucho mejor."
+      },
+      {
+        "question": "Si tenés un auto, viajás con frecuencia y una app te permite trasladar gente y recuperar costos, ¿la usarías? ",
+        "answer": "Sí, me serviría."
+      },
+      {
+        "question": "¿Cuál es tu principal obstáculo?",
+        "answer": "Horarios: hay poca frecuencia o no me sirve."
+      },
+      {
+        "question": "¿Qué es lo que más valorarías?",
+        "answer": "Saber quién es el conductor/pasajero antes de subirme."
+      },
+      {
+        "question": "¿Cuáles son tus rutas más frecuentes?\n(Ej: Bahía - Suárez / Bahía - Punta Alta / Bahía - Dorrego / Monte Hermoso - Dorrego)",
+        "answer": "Bahia-Suárez "
+      },
+      {
+        "question": "Género ",
+        "answer": "Mujer"
+      }
+    ]
+  }
+]
