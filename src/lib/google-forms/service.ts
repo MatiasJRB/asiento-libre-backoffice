@@ -11,7 +11,11 @@ function getClient() {
     throw new Error('Faltan credenciales de Google en las variables de entorno');
   }
 
-  const oauth2Client = new OAuth2Client(CLIENT_ID, CLIENT_SECRET);
+  const oauth2Client = new OAuth2Client(
+    CLIENT_ID, 
+    CLIENT_SECRET,
+    'https://developers.google.com/oauthplayground'
+  );
   oauth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
   return oauth2Client;
 }
