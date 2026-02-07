@@ -25,11 +25,22 @@ export default async function FormDetailsPage({ params }: { params: Promise<{ id
     totalResponses = data.totalResponses;
     analytics = calculateAnalytics(normalized);
   } catch (error) {
+    console.error('Error loading form:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Error desconocido';
+    const errorDetails = error instanceof Error && 'response' in error 
+      ? JSON.stringify((error as { response?: { data?: unknown } }).response?.data, null, 2) 
+      : '';
+    
     return (
       <DashboardLayout>
       <div className="p-10 text-center">
         <h2 className="text-xl font-semibold text-red-600">Error al cargar el formulario</h2>
-        <p className="text-muted-foreground mt-2">{(error as Error).message}</p>
+        <p className="text-muted-foreground mt-2">{errorMessage}</p>
+        {errorDetails && (
+          <pre className="mt-4 text-left text-xs bg-gray-100 p-4 rounded overflow-auto max-w-2xl mx-auto">
+            {errorDetails}
+          </pre>
+        )}
         <Button asChild className="mt-4" variant="outline">
             <Link href="/admin/forms">Volver</Link>
         </Button>
