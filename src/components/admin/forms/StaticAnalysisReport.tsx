@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-// import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { TrendingUp, Users, Shield, MapPin, AlertTriangle, Dog } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
