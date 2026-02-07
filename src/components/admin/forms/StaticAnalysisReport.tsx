@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+// import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { TrendingUp, Users, Shield, MapPin, AlertTriangle, Dog } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
@@ -17,7 +17,7 @@ export function StaticAnalysisReport() {
           <CardContent>
             <div className="text-2xl font-bold text-blue-700 dark:text-blue-300">Alta</div>
             <p className="text-xs text-blue-600/80 dark:text-blue-400/80">
-              Gran mayoría dispuesta a usar la app ("Sí" o "Tal vez")
+              Gran mayoría dispuesta a usar la app (&quot;Sí&quot; o &quot;Tal vez&quot;)
             </p>
           </CardContent>
         </Card>
@@ -43,7 +43,7 @@ export function StaticAnalysisReport() {
           <CardContent>
             <div className="text-2xl font-bold">Confianza</div>
             <p className="text-xs text-muted-foreground">
-              "Saber quién es" es más valorado que el ahorro
+              &quot;Saber quién es&quot; es más valorado que el ahorro
             </p>
           </CardContent>
         </Card>
@@ -89,7 +89,7 @@ export function StaticAnalysisReport() {
                   <span className="font-medium">Ocasional (1-2 veces/mes)</span>
                 </div>
                 <div className="text-sm text-muted-foreground leading-relaxed">
-                  El modelo de uso es predominantemente esporádico. Sin embargo, aparecen usuarios de "fines de semana" y larga distancia que buscan previsibilidad.
+                  El modelo de uso es predominantemente esporádico. Sin embargo, aparecen usuarios de &quot;fines de semana&quot; y larga distancia que buscan previsibilidad.
                 </div>
               </div>
             </CardContent>
@@ -109,7 +109,7 @@ export function StaticAnalysisReport() {
               <div className="space-y-2">
                 <h4 className="font-semibold text-sm">🚗 Seguridad ante todo</h4>
                 <p className="text-sm text-slate-600 dark:text-slate-400">
-                  La barrera de entrada para conductores indecisos es la <strong>selección del pasajero</strong> ("No meto a cualquiera"). Validación de identidad es mandatorio.
+                  La barrera de entrada para conductores indecisos es la <strong>selección del pasajero</strong> (&quot;No meto a cualquiera&quot;). Validación de identidad es mandatorio.
                 </p>
               </div>
               
@@ -126,7 +126,7 @@ export function StaticAnalysisReport() {
               <div className="space-y-2">
                 <h4 className="font-semibold text-sm">🚌 Hartazgo del Transporte Público</h4>
                 <p className="text-sm text-slate-600 dark:text-slate-400">
-                  Palabras recurrentes: "Lento", "Incomodo", "Horarios feos". La propuesta de valor debe centrarse en la <strong>flexibilidad y confort</strong>.
+                  Palabras recurrentes: &quot;Lento&quot;, &quot;Incomodo&quot;, &quot;Horarios feos&quot;. La propuesta de valor debe centrarse en la <strong>flexibilidad y confort</strong>.
                 </p>
               </div>
 

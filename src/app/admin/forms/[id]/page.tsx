@@ -4,7 +4,7 @@ import { FormAnalytics } from "@/components/admin/forms/FormAnalytics";
 import { StaticAnalysisReport } from "@/components/admin/forms/StaticAnalysisReport"; // Import static report
 import { calculateAnalytics } from "@/lib/google-forms/analytics";
 import { DashboardLayout } from "@/components/dashboard-layout";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -16,11 +16,29 @@ export default async function FormDetailsPage({ params }: { params: Promise<{ id
   // ID especifico de la encuesta de validación
   const IS_VALIDATION_FORM = id === '17cXUR1aJHApjghaNmo0BN3Xj7eCj2Vg4RBYls8hDvJY';
 
-  try {
-    const { normalized, formTitle, totalResponses } = await getFormResponses(id);
-    const analytics = calculateAnalytics(normalized);
+  let normalized, formTitle, totalResponses, analytics;
 
+  try {
+    const data = await getFormResponses(id);
+    normalized = data.normalized;
+    formTitle = data.formTitle;
+    totalResponses = data.totalResponses;
+    analytics = calculateAnalytics(normalized);
+  } catch (error) {
     return (
+      <DashboardLayout>
+      <div className="p-10 text-center">
+        <h2 className="text-xl font-semibold text-red-600">Error al cargar el formulario</h2>
+        <p className="text-muted-foreground mt-2">{(error as Error).message}</p>
+        <Button asChild className="mt-4" variant="outline">
+            <Link href="/admin/forms">Volver</Link>
+        </Button>
+      </div>
+      </DashboardLayout>
+    );
+  }
+
+  return (
       <DashboardLayout>
       <div className="space-y-8">
         <div className="flex items-center gap-4 border-b pb-4">
@@ -64,15 +82,4 @@ export default async function FormDetailsPage({ params }: { params: Promise<{ id
       </div>
       </DashboardLayout>
     );
-  } catch (error: any) {
-    return (
-      <div className="p-10 text-center">
-        <h2 className="text-xl font-semibold text-red-600">Error al cargar el formulario</h2>
-        <p className="text-muted-foreground mt-2">{error.message}</p>
-        <Button asChild className="mt-4" variant="outline">
-            <Link href="/admin/forms">Volver</Link>
-        </Button>
-      </div>
-    );
-  }
 }

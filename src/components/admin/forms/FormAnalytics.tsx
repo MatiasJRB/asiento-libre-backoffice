@@ -43,7 +43,7 @@ export function FormAnalytics({ stats }: { stats: QuestionStat[] }) {
                                 {stat.textAnswers?.map((ans, i) => (
                                     <div key={i} className="bg-white dark:bg-slate-950 p-3 rounded shadow-sm border text-sm relative pl-6">
                                         <Quote className="h-3 w-3 text-slate-300 absolute left-2 top-3" />
-                                        <p className="text-slate-700 dark:text-slate-300 leading-relaxed italic">"{ans}"</p>
+                                        <p className="text-slate-700 dark:text-slate-300 leading-relaxed italic">&quot;{ans}&quot;</p>
                                     </div>
                                 ))}
                             </div>
