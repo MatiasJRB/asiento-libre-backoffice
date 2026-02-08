@@ -44,22 +44,37 @@ export async function getForm(formId: string) {
 }
 
 export async function getFormResponses(formId: string) {
-  const forms = getFormsService();
-  const response = await forms.forms.responses.list({ formId });
-  const responses = (response.data.responses || []) as GoogleFormResponse[];
-  
-  // También necesitamos la estructura para normalizar
-  const formResponse = await forms.forms.get({ formId });
-  const formStructure = formResponse.data as GoogleFormStructure;
+  try {
+    console.log('getFormResponses: iniciando para formId:', formId);
+    const forms = getFormsService();
+    console.log('getFormResponses: forms service creado');
+    
+    const response = await forms.forms.responses.list({ formId });
+    console.log('getFormResponses: respuestas obtenidas:', response.data.responses?.length || 0);
+    const responses = (response.data.responses || []) as GoogleFormResponse[];
+    
+    // También necesitamos la estructura para normalizar
+    const formResponse = await forms.forms.get({ formId });
+    console.log('getFormResponses: estructura del form obtenida');
+    const formStructure = formResponse.data as GoogleFormStructure;
 
-  const normalized = normalizeAllResponses(responses, formStructure);
-  const tabular = toTabularFormat(normalized);
+    const normalized = normalizeAllResponses(responses, formStructure);
+    const tabular = toTabularFormat(normalized);
 
-  return {
-    raw: responses,
-    normalized,
-    tabular,
-    formTitle: formStructure.info.title,
-    totalResponses: responses.length
-  };
+    return {
+      raw: responses,
+      normalized,
+      tabular,
+      formTitle: formStructure.info.title,
+      totalResponses: responses.length
+    };
+  } catch (error: unknown) {
+    console.error('getFormResponses: ERROR COMPLETO:', error);
+    if (error && typeof error === 'object' && 'response' in error) {
+      const apiError = error as { response?: { data?: unknown; status?: number } };
+      console.error('getFormResponses: Response status:', apiError.response?.status);
+      console.error('getFormResponses: Response data:', JSON.stringify(apiError.response?.data, null, 2));
+    }
+    throw error;
+  }
 }
